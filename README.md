@@ -4,5 +4,5 @@ This repository is for implementing different algorithms its only for me so plea
 #### Sorting Algorithms Implemented
 - [x] Selection Sort
 - [x] Insertion Sort
-- [ ] Merge Sort
+- [x] Merge Sort
 - [ ] Heap Sort
