@@ -8,7 +8,7 @@ public class QuickSort {
 	}
 	public static void qsort(int[] array,int start,int end){
 		if(start<end){
-			int partition_key=partition(array,start,end);
+			int partition_key=standardPartition(array,start,end);
 			//printArray(array);
 			qsort(array,partition_key+1,end);
 			qsort(array,start,partition_key-1);
@@ -35,5 +35,21 @@ public class QuickSort {
 			}
 		}
 		return pivot_index;
+	}
+	private static int standardPartition(int[] array,int start,int end){
+		int pivot=array[end];
+		int pIndex=start;
+		for(int i=start;i<end;i++){
+			if(array[i]<=pivot){
+				int temp=array[pIndex];
+				array[pIndex]=array[i];
+				array[i]=temp;
+				pIndex+=1;
+			}
+		}
+		int temp=array[pIndex];
+		array[pIndex]=array[end];
+		array[end]=temp;
+		return pIndex;
 	}
 }
