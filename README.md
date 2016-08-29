@@ -3,6 +3,6 @@ This repository is for implementing different algorithms its only for me so plea
 
 #### Sorting Algorithms Implemented
 - [x] Selection Sort
-- [ ] Insertion Sort
+- [x] Insertion Sort
 - [ ] Merge Sort
 - [ ] Heap Sort
