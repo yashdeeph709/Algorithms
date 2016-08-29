@@ -5,7 +5,7 @@ This repository is for implementing different algorithms its only for me so plea
 	#1 Selection Sort done!
 	#2 Insertion Sort done!
 	#3 Merge Sort done!
-	  Quick Sort
+	#5 Quick Sort
 	 Heap Sort
 	 Bubble Sort
 	 Shell Sort
