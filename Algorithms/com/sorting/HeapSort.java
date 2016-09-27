@@ -4,7 +4,7 @@ public class HeapSort {
 	int heapsize;
 	public void buildMaxHeap(int array[]){
 		heapsize=array.length;
-		for(int i=heapsize/2-1;i>-1;i--){
+		for(int i=heapsize/2;i>-1;i--){
 			maxHeapify(array,i);
 		}
 	}
