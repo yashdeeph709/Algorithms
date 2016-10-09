@@ -19,7 +19,7 @@ public class PrintHackerEarth {
 			if(i==0 || i==2 || i==5 || i==3){
 				mini=min(mini,freq[map[i]]/2);
 			}else if(i==1 || i==4 || i==6){
-				mini=min(mini, freq[map[i]]);
+				mini=min(mini, freq[map[i]]); 
 			}
 		}
 		System.out.println(mini);
