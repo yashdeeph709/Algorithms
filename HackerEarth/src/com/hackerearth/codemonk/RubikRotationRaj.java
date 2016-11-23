@@ -22,45 +22,26 @@ public class RubikRotationRaj {
 		int[] rows = new int[N];
 		for (int i = 0; i < R; i++) {
 			int index = Integer.parseInt(line[i]);
-			rows[index]++;
-			rows[index] = rows[index] > N ? rows[index] % N : rows[index];
+			rows[index-1]++;
+			rows[index-1] = rows[index-1] > N ? rows[index-1] % N : rows[index-1];
 		}
 		line = br.readLine().split(" ");
 		int[] cols = new int[N];
 		for (int i = 0; i < C; i++) {
 			int index = Integer.parseInt(line[i]);
-			cols[index]++;
-			cols[index] = cols[index] > N ? cols[index] % N : cols[index];
+			cols[index-1]++;
+			cols[index-1] = cols[index-1] > N ? cols[index-1] % N : cols[index-1];
 		}
-		int element = N % 2 == 0 ? N / 2 : (N / 2) - 1;
-		int temp = Integer.MIN_VALUE;
-		System.out.println(rows[0] + "" + rows[1] + "" + rows[2] + "" + rows[3]);
-		// rows update
-		for (int i = 0; i < rows.length; i++) {
-			if (rows[i] > 0) {
-				for (int j = 0; j < element; j++) {
-					// swap element with i,j with i,rows[i]
-					temp = matrix[i][j];
-					matrix[i][j] = matrix[i][rows[i]+j];
-					matrix[i][rows[i]+j] = temp;
-				}
-			}
+		
+		for(int i=0;i<rows.length;i++){
+			rotateRow(matrix,rows[i],i);
 		}
 		printMatrix(matrix);
-		// cols update
-		System.out.println(cols[0] + "" + cols[1] + "" + cols[2] + "" + cols[3]);
-		for (int i = 0; i < cols.length; i++) {
-			if (cols[i] > 0) {
-				for (int j = 0; j < element; j++) {
-					temp = matrix[j][i];
-					matrix[j][i] = matrix[cols[i]+j][i];
-					matrix[cols[i]+j][i] = temp;
-				}
-			}
+/*		for(int i=0;i<cols.length;i++){
+			rotateColumn(matrix,cols[i],i);
 		}
-		System.out.println("col tx");
 		printMatrix(matrix);
-	}
+*/	}
 
 	public static void printMatrix(int[][] matrix) {
 		System.out.println();
@@ -71,14 +52,31 @@ public class RubikRotationRaj {
 			System.out.println();
 		}
 	}
-	public static void rotateColumn(int[][] matrix,int coln,int times){
-		int temp=0;
-		for(int i=0;i<matrix[coln].length;i+=times){
-			if(i+times>matrix[coln].length){
-				i=i%matrix[coln].length;
+
+	public static void rotateColumn(int[][] arr, int order,int columnnumber) {
+		if (arr == null || order < 0) {
+		    throw new IllegalArgumentException("Illegal argument!");
+		}
+	 
+		for (int i = 0; i < order; i++) {
+			for (int j = arr.length - 1; j > 0; j--) {
+				int temp = arr[j][columnnumber];
+				arr[j][columnnumber] = arr[j - 1][columnnumber];
+				arr[j - 1][columnnumber] = temp;
 			}
-			temp=matrix[i+times][coln];
-			matrix[i+times][coln]=matrix[i][coln];
+		}
+	}
+	public static void rotateRow(int[][] arr, int order,int rownumber) {
+		if (arr == null || order < 0) {
+		    throw new IllegalArgumentException("Illegal argument!");
+		}
+	 
+		for (int i = 0; i < order; i++) {
+			for (int j = arr.length - 1; j > 0; j--) {
+				int temp = arr[rownumber][j];
+				arr[rownumber][j] = arr[rownumber][j-1];
+				arr[rownumber][j-1] = temp;
+			}
 		}
 	}
 }
