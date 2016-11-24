@@ -22,26 +22,22 @@ public class RubikRotationRaj {
 		int[] rows = new int[N];
 		for (int i = 0; i < R; i++) {
 			int index = Integer.parseInt(line[i]);
-			rows[index-1]++;
-			rows[index-1] = rows[index-1] > N ? rows[index-1] % N : rows[index-1];
+			rows[index - 1]++;
+			rows[index - 1] = rows[index - 1] > N ? rows[index - 1] % N : rows[index - 1];
 		}
 		line = br.readLine().split(" ");
 		int[] cols = new int[N];
 		for (int i = 0; i < C; i++) {
 			int index = Integer.parseInt(line[i]);
-			cols[index-1]++;
-			cols[index-1] = cols[index-1] > N ? cols[index-1] % N : cols[index-1];
+			cols[index - 1]++;
+			cols[index - 1] = cols[index - 1] > N ? cols[index - 1] % N : cols[index - 1];
 		}
-		
-		for(int i=0;i<rows.length;i++){
-			rotateRow(matrix,rows[i],i);
-		}
-		printMatrix(matrix);
-/*		for(int i=0;i<cols.length;i++){
-			rotateColumn(matrix,cols[i],i);
+
+		for (int i = 0; i < rows.length; i++) {
+			rotateRow(matrix, rows[i], i);
 		}
 		printMatrix(matrix);
-*/	}
+	}
 
 	public static void printMatrix(int[][] matrix) {
 		System.out.println();
@@ -53,11 +49,11 @@ public class RubikRotationRaj {
 		}
 	}
 
-	public static void rotateColumn(int[][] arr, int order,int columnnumber) {
+	public static void rotateColumn(int[][] arr, int order, int columnnumber) {
 		if (arr == null || order < 0) {
-		    throw new IllegalArgumentException("Illegal argument!");
+			throw new IllegalArgumentException("Illegal argument!");
 		}
-	 
+
 		for (int i = 0; i < order; i++) {
 			for (int j = arr.length - 1; j > 0; j--) {
 				int temp = arr[j][columnnumber];
@@ -66,17 +62,28 @@ public class RubikRotationRaj {
 			}
 		}
 	}
-	public static void rotateRow(int[][] arr, int order,int rownumber) {
+
+	public static void rotateRow(int[][] arr, int order, int rownumber) {
 		if (arr == null || order < 0) {
-		    throw new IllegalArgumentException("Illegal argument!");
+			throw new IllegalArgumentException("Illegal argument!");
 		}
-	 
-		for (int i = 0; i < order; i++) {
+		int[] extras=new int[order];
+		int j=0;
+		//write outofbound elements to covered area
+		for(int i=arr.length-1;arr.length-order>=0;i--){
+			extras[j]=arr[rownumber][i];
+		}
+		// move from last to first
+		for(int i=arr.length-order;i>=0;i--){
+			int temp=arr[rownumber][i+order];
+		}
+		/*for (int i = 0; i < order; i++) {
 			for (int j = arr.length - 1; j > 0; j--) {
 				int temp = arr[rownumber][j];
-				arr[rownumber][j] = arr[rownumber][j-1];
-				arr[rownumber][j-1] = temp;
+				arr[rownumber][j] = arr[rownumber][j - 1];
+				arr[rownumber][j - 1] = temp;
 			}
 		}
+		*/
 	}
 }
