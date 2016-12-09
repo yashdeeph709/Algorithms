@@ -1,13 +1,11 @@
-package com.hackerearth.codemonk;
+package com.hackerearth.codemonk.implementation;
 
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import java.io.IOException;
- 
-public class RubikRotationRaj {
- 
+/*public class RubikRotationRaj{
 	public static void main(String[] args) throws IOException {
-		InputStreamReader is = new InputStreamReader(System.in);
+          InputStreamReader is = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(is);
 		String[] line = br.readLine().split(" ");
 		int N = Integer.parseInt(line[0]), R = Integer.parseInt(line[1]), C = Integer.parseInt(line[2]);
@@ -231,4 +229,4 @@ class RubiksSquare2 {
  
 	}
  
-}
+}*/

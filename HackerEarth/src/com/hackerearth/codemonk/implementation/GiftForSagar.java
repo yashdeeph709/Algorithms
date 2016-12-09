@@ -1,4 +1,4 @@
-package com.hackerearth.codemonk;
+package com.hackerearth.codemonk.implementation;
 
 import java.io.InputStreamReader;
 import java.io.BufferedReader;

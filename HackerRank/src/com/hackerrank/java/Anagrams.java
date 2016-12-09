@@ -6,6 +6,7 @@ public class Anagrams{
 	}
 	static boolean isAnagram(String a, String b) {
 		a=a.toLowerCase();
+		int anagrams[][]=new int[26][2];
 		b=b.toLowerCase();
     	if(a.length()!=b.length()){
     		return false;

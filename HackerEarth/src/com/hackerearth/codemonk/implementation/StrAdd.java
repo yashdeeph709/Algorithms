@@ -1,4 +1,4 @@
-package com.hackerearth.codemonk;
+package com.hackerearth.codemonk.implementation;
 
 import java.util.Scanner;
 

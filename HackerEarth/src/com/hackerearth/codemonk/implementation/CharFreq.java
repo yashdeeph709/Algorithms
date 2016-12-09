@@ -17,7 +17,6 @@ public class CharFreq{
 		for(int i=0;i<=str.length()-n+1;i++){
 			String sub=str.substring(i,i+n-1);
 			int freq=0;
-			System.out.println(sub);
 			for(int j=0;j<sub.length();j++){
 				if(sub.charAt(j)==c){
 					freq++;
@@ -29,7 +28,11 @@ public class CharFreq{
 			}
 		}
 		if(n!=1){
-			System.out.println(maxPosition);
+			if(maxPosition==str.length()){
+				System.out.println(-1);
+			}else{
+				System.out.println(maxPosition);
+			}
 		}else{
 			System.out.println(-1);
 		}	
