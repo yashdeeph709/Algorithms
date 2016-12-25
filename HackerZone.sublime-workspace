@@ -178,13 +178,17 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/c5244128/Desktop/HackerZone/HackerEarth/src",
-		"/C/Users/c5244128/Desktop/HackerZone/HackerEarth/src/com",
-		"/C/Users/c5244128/Desktop/HackerZone/HackerEarth/src/com/hackerearth",
-		"/C/Users/c5244128/Desktop/HackerZone/HackerEarth/src/com/hackerearth/codemonk"
+		"/C/Users/c5244128/Desktop/HackerZone",
+		"/C/Users/c5244128/Desktop/HackerZone/HackerEarth",
+		"/C/Users/c5244128/Desktop/HackerZone/HackerEarth/bin",
+		"/C/Users/c5244128/Desktop/HackerZone/HackerEarth/bin/com",
+		"/C/Users/c5244128/Desktop/HackerZone/HackerEarth/bin/com/hackerearth",
+		"/C/Users/c5244128/Desktop/HackerZone/HackerEarth/bin/com/hackerearth/codemonk",
+		"/C/Users/c5244128/Desktop/HackerZone/HackerEarth/bin/com/hackerearth/codemonk/implementation"
 	],
 	"file_history":
 	[
+		"/C/Users/c5244128/Desktop/HackerZone/HackerEarth/src/com/hackerearth/codemonk/implementation/BobAndBombs.java",
 		"/C/Users/c5244128/Pictures/ConEmuPack.160607/plugins/ConEmu/Readme.txt",
 		"/C/Users/c5244128/Pictures/ConEmuPack.160607/ConEmu.xml",
 		"/C/Users/c5244128/Desktop/HackerZone/HackerEarth/src/com/hackerearth/codemonk/implementation/War.java",
@@ -311,8 +315,7 @@
 		"/C/Users/c5244128/Desktop/CFP/ci365-cfp/Carriers/starhub/cellTowerStream/streamDetails.xml",
 		"/C/Users/c5244128/Desktop/CFP/ci365-cfp/Carriers/starhub/domainStream/streamDetails.xml",
 		"/C/Users/c5244128/Desktop/CFP/ci365-cfp/Carriers/starhub/hanaLoaderStream/streamDetails.xml",
-		"/C/Users/c5244128/Desktop/CFP/ci365-cfp/HanaLoaderStream/script/start_hanaloader.sh",
-		"/C/Users/c5244128/Desktop/CFP/ci365-cfp/Carriers/starhub/hanaLoaderStream/parameters.txt.tmpl"
+		"/C/Users/c5244128/Desktop/CFP/ci365-cfp/HanaLoaderStream/script/start_hanaloader.sh"
 	],
 	"find":
 	{
@@ -512,6 +515,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 475.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -533,6 +540,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"bob",
+				"HackerEarth\\src\\com\\hackerearth\\codemonk\\implementation\\BobAndBombs.java"
+			],
 			[
 				"fina",
 				"HackerEarth\\src\\com\\hackerearth\\codemonk\\implementation\\FinalDestination.java"
@@ -1040,10 +1051,6 @@
 			[
 				"canruncon",
 				"ControlFileCheckStream\\script\\canRunControlCheck.sh"
-			],
-			[
-				"casubs",
-				"SubscriberStream\\script\\canRunSubscriber.sh"
 			]
 		],
 		"width": 0.0
@@ -1073,8 +1080,8 @@
 	"selected_group": 0,
 	"settings":
 	{
-		"_vintageous_last_buffer_search": "BufferedReader",
-		"_vintageous_last_buffer_search_command": "vi_slash",
+		"_vintageous_last_buffer_search": ">>",
+		"_vintageous_last_buffer_search_command": "vi_question_mark",
 		"_vintageous_last_char_search_command": "vi_big_t",
 		"_vintageous_last_character_search": "b",
 		"_vintageous_reset_during_init": true,
