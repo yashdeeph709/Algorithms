@@ -1,0 +1,41 @@
+function landingPosition(input1) {
+    var patterns={};
+    //console.log((input1[0].length-1)/2+1)
+    for(i=0;i<_input_currentline-1;i++){
+        var streak={ start:-1,count:0 }
+        var k=0;
+        for(j=0;j<input1[0].length;j++){
+            if(input1[i].charAt(j)==='o'){
+                if(streak.start==-1){
+                    streak.start=k;
+                }
+                streak.count+=1;
+                k++;
+            }
+            if(input1[i].charAt(j)==='x'){
+                if(streak.start!==-1){
+                    name=streak.start+"-"+(streak.start+streak.count);
+                    if(patterns[name]){
+                        patterns[name]+=1;
+                    }else{
+                        patterns[name]=1;
+                    }
+                    streak={start:-1,count:0}
+                }
+                k++;
+            }
+            if(input1[i].charAt(j)==='o' || input1[i].charAt(j)==='x'){
+                //console.log("i is "+i);
+                //console.log("j is "+j);
+                //console.log("streak:"+streak.start+" count"+streak.count);
+            }
+        }
+    }
+    var max=-1;
+    Object.keys(patterns).forEach(function(key){
+        if(patterns[key]>max){
+            max=patterns[key];
+        }
+    })
+    return max;
+}
