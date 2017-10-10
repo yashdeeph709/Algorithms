@@ -21,26 +21,40 @@ public class RoundTableKillers{
 	}
 	public static int findSurvivor(int N,int K,int X){
 		int[] table = new int[N+1];
-		int killed = 0;
-		int survivor = -1;
+		int gunner=X;
+		int remains=N;
 		while(true){
-			int toBeKilled=X%K;
-			int i=X+1>N?1:X+1;
-			if((N-killed)<toBeKilled){
-				break;	
+			//System.out.println("Gunner Changed:"+gunner);
+			int toBeKilled = gunner%K;			
+			if(toBeKilled==0){
+				gunner=gunner>=N?1+(N-gunner):gunner+1;
+				//System.out.println("toBeKilled==0 so gunner shifts to "+gunner);
+				continue;
 			}
-			while(toBeKilled!=0){
-				if(table[i]!=-1 && i!=X){
-					table[i]=-1;
-					toBeKilled--;
-					killed++;
+			if(toBeKilled>=remains){
+				//System.out.println("remaining is less that to be killed"+gunner);
+				return gunner;
+			}
+			int nextVictim = gunner>=N?1+(N-gunner):gunner+1;
+			//System.out.println("nextVictim is "+nextVictim);
+			while(true){
+				if(toBeKilled==0){
+					//System.out.println("Gun is in"+gunner);
+					while(table[nextVictim]==-1){
+						nextVictim = nextVictim>=N?1+(N-nextVictim):nextVictim+1;
+					}
+					gunner=nextVictim;
+					break;
 				}
-				i=i+1>N?1:i+1;
+				if(table[nextVictim]!=-1){
+					table[nextVictim]=-1;
+					toBeKilled--;
+					remains--;
+					//System.out.println("Killed"+nextVictim+"toBeKilled"+toBeKilled+"remains"+remains);
+				}	
+				nextVictim = nextVictim>=N?1+(N-nextVictim):nextVictim+1;
+				//System.out.println("nextVictim is"+nextVictim);
 			}
-			System.out.println("People Killed:"+killed);
-			X=i;
 		}
-		return X>N?1:X;
 	}
-
 }
