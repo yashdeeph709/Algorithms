@@ -1,0 +1,708 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AllStar	CodingBat/src/com/codingbat/AllStar.java	/^public class AllStar{$/;"	c
+Anagrams	HackerRank/src/com/hackerrank/java/Anagrams.java	/^public class Anagrams{$/;"	c
+AppleOrange	HackerRank/src/com/hackerrank/woc24/AppleOrange.java	/^public class AppleOrange {$/;"	c
+AreaOfCircle1002	UriGym/src/com/uri/AreaOfCircle1002.java	/^public class AreaOfCircle1002{$/;"	c
+Array11	CodingBat/src/com/codingbat/Array11.java	/^public class Array11{$/;"	c
+Array220	CodingBat/src/com/codingbat/Array220.java	/^public class Array220{$/;"	c
+Array6	CodingBat/src/com/codingbat/Array6.java	/^public class Array6{$/;"	c
+ArrayInsertSegTree	HackerEarth/src/com/hackerearth/codemonk/implementation/ArrayInsertSegTree.java	/^public class ArrayInsertSegTree{$/;"	c
+Average1005	UriGym/src/com/uri/Average1005.java	/^public class Average1005{$/;"	c
+Average1006	UriGym/src/com/uri/Average1006.java	/^public class Average1006{$/;"	c
+BatmanTicTacToe	HackerEarth/src/com/hackerearth/codemonk/implementation/BatmanTicTacToe.java	/^public class BatmanTicTacToe{$/;"	c
+BennyAndBalls	HackerEarth/src/com/hackerearth/codemonk/implementation/BennyAndBalls.java	/^public class BennyAndBalls {$/;"	c
+BinarySearch	Algorithms/src/com/search/BinarySearch.java	/^public class BinarySearch{$/;"	c
+BlockingServerThreaded	IstanbulTechTalks/BlockingServerThreaded.java	/^public class BlockingServerThreaded{$/;"	c
+BobAndBombs	HackerEarth/src/com/hackerearth/codemonk/implementation/BobAndBombs.java	/^public class BobAndBombs{$/;"	c
+BunnyEars	CodingBat/src/com/codingbat/BunnyEars.java	/^public class BunnyEars{$/;"	c
+BunnyEars2	CodingBat/src/com/codingbat/BunnyEars2.java	/^public class BunnyEars2{$/;"	c
+CandidateCode	techgig/CandidateCode.java	/^public class CandidateCode {$/;"	c
+CavityMap	HackerRank/src/com/hackerrank/CavityMap.java	/^public class CavityMap {$/;"	c
+CeaserCipher	HackerRank/src/com/hackerrank/CeaserCipher.java	/^public class CeaserCipher {$/;"	c
+ChangePi	CodingBat/src/com/codingbat/ChangePi.java	/^public class ChangePi{$/;"	c
+ChangeXY	CodingBat/src/com/codingbat/ChangeXY.java	/^public class ChangeXY{$/;"	c
+CharFreq	HackerEarth/src/com/hackerearth/codemonk/implementation/CharFreq.java	/^public class CharFreq{$/;"	c
+CheckPalindrome	HackerEarth/src/com/hackerearth/codemonk/implementation/CheckPalindrome.java	/^public class CheckPalindrome {$/;"	c
+ChessTournament	HackerEarth/src/com/hackerearth/codemonk/implementation/ChessTournament.java	/^public class ChessTournament{$/;"	c
+Client	Distributed/src/com/distributed/storage/Client.java	/^public class Client {$/;"	c
+CodeStreak	HackerEarth/src/com/hackerearth/codemonk/implementation/CodeStreak.java	/^public class CodeStreak{$/;"	c
+CoinGame	HackerEarth/src/com/hackerearth/codemonk/implementation/CoinGame.java	/^public class CoinGame{$/;"	c
+CoinSearchDP	T0pC0d3r/src/com/topcoder/CoinSearchDP.java	/^public class CoinSearchDP{$/;"	c
+ConcurrentModExceptionDemo	ConcurrentModExceptionDemo.java	/^public class ConcurrentModExceptionDemo{ $/;"	c
+Count11	CodingBat/src/com/codingbat/Count11.java	/^public class Count11{$/;"	c
+Count7	CodingBat/src/com/codingbat/Count7.java	/^public class Count7{$/;"	c
+Count8	CodingBat/src/com/codingbat/Count8.java	/^public class Count8{$/;"	c
+CountAbc	CodingBat/src/com/codingbat/CountAbc.java	/^public class CountAbc{$/;"	c
+CountDigits	HackerEarth/src/com/hackerearth/codemonk/implementation/CountDigits.java	/^public class CountDigits {$/;"	c
+CountDivisors	HackerEarth/src/com/hackerearth/codemonk/implementation/CountDivisors.java	/^public class CountDivisors {$/;"	c
+CountEars	CodingBat/src/com/codingbat/BunnyEars2.java	/^	public static int CountEars(int number){$/;"	m	class:BunnyEars2
+CountHi	CodingBat/src/com/codingbat/CountHi.java	/^public class CountHi{$/;"	c
+CountHi2	CodingBat/src/com/codingbat/CountHi2.java	/^public class CountHi2{$/;"	c
+CountNumbers	HackerEarth/src/com/hackerearth/codemonk/implementation/CountNumbers.java	/^public class CountNumbers{$/;"	c
+CountPairs	CodingBat/src/com/codingbat/CountPairs.java	/^public class CountPairs{$/;"	c
+CountX	CodingBat/src/com/codingbat/CountX.java	/^public class CountX{$/;"	c
+CountingRR	HackerEarth/src/com/hackerearth/codemonk/implementation/CountingRR.java	/^class CountingRR{$/;"	c
+CricketRating	HackerEarth/src/com/hackerearth/codemonk/implementation/CricketRating.java	/^public class CricketRating{$/;"	c
+D	cryptopals_python/HexToCryptopals.py	/^D = OrderedDict()$/;"	v
+DaisyPassword	Competitions/src/com/lendingkart/DaisyPassword.java	/^public class DaisyPassword{$/;"	c
+DatePlay	HackerRank/src/com/hackerrank/java/DatePlay.java	/^public class DatePlay{$/;"	c
+Difference1007	UriGym/src/com/uri/Difference1007.java	/^public class Difference1007{$/;"	c
+DistinctPowers	Competitions/src/com/RangDe/DistinctPowers.java	/^public class DistinctPowers{$/;"	c
+DistinctRanks	Competitions/src/com/RangDe/DistinctRanks.java	/^public class DistinctRanks{$/;"	c
+DivisibleSum	HackerRank/src/com/hackerrank/DivisibleSum.java	/^public class DivisibleSum {$/;"	c
+EndX	CodingBat/src/com/codingbat/EndX.java	/^public class EndX{$/;"	c
+EqualStacks	HackerRank/src/com/hackerrank/EqualStacks.java	/^public class EqualStacks {$/;"	c
+EvenFibonacci	ICPC/src/net/projecteuler/EvenFibonacci.java	/^public class EvenFibonacci {$/;"	c
+ExtremeBasic1001	UriGym/src/com/uri/ExtremeBasic1001.java	/^public class ExtremeBasic1001{$/;"	c
+FacebookPhoto	HackerEarth/src/com/hackerearth/codemonk/implementation/FacebookPhoto.java	/^public class FacebookPhoto {$/;"	c
+Factorial	CodingBat/src/com/codingbat/Factorial.java	/^class Factorial{$/;"	c
+Factorial	HackerEarth/src/com/hackerearth/codemonk/implementation/Factorial.java	/^public class Factorial {$/;"	c
+Farmer	ICPC/src/MixingMilk.java	/^	public Farmer(int price, int quantity) {$/;"	m	class:Farmer
+Farmer	ICPC/src/MixingMilk.java	/^class Farmer implements Comparable<Farmer>{$/;"	c
+Fibonacci	CodingBat/src/com/codingbat/Fibonacci.java	/^public class Fibonacci{$/;"	c
+Fibonacci	HackerRank/src/com/hackerrank/projecteuler/Fibonacci.java	/^public class Fibonacci {$/;"	c
+FinalDestination	HackerEarth/src/com/hackerearth/codemonk/implementation/FinalDestination.java	/^public class FinalDestination{$/;"	c
+Finder	ICPC/src/StringSearch.java	/^	public Finder(String master, String test) {$/;"	m	class:Finder
+Finder	ICPC/src/StringSearch.java	/^class Finder{$/;"	c
+FrequencySort	GeekForGeek/src/org/geeksforgeeks/FrequencySort.java	/^public class FrequencySort{$/;"	c
+GiftForSagar	HackerEarth/src/com/hackerearth/codemonk/implementation/GiftForSagar.java	/^class GiftForSagar{$/;"	c
+GiftFriends	HackerEarth/src/com/hackerearth/codemonk/implementation/GiftFriends.java	/^public class GiftFriends {$/;"	c
+GoodBadStrings	HackerEarth/src/com/hackerearth/codemonk/implementation/GoodBadStrings.java	/^public class GoodBadStrings {$/;"	c
+GridSearch	ICPC/src/GridSearch.java	/^public class GridSearch {$/;"	c
+HeapSort	Algorithms/src/com/sorting/HeapSort.java	/^public class HeapSort {$/;"	c
+HeapSort1	Algorithms/src/com/sorting/HeapSort1.java	/^public class HeapSort1{$/;"	c
+Hex	cryptopals_python/HexToCryptopals.py	/^Hex = [ 0b0000,0b001,0b0010,0b0011,0b0100,0b0101,0b0110,0b0111,0b1000,0b1001,0b1010,0b1011,0b1100,0b1101,0b1110,0b1111 ]$/;"	v
+Hex2B64	cryptopals_java/src/com/cryptopals/sets/one/Hex2B64.java	/^public class Hex2B64{$/;"	c
+InputReader	treasure/FastInputStream.java	/^		public InputReader(InputStream stream)$/;"	m	class:InputReader
+InputReader	treasure/FastInputStream.java	/^static class InputReader$/;"	c
+InsertionSort	Algorithms/src/com/sorting/InsertionSort.java	/^class InsertionSort {$/;"	c
+InsertionSort	ICPC/src/InsertionSort.java	/^public class InsertionSort {$/;"	c
+JarvisAndLone	HackerEarth/src/com/hackerearth/codemonk/implementation/JarvisAndLone.java	/^public class JarvisAndLone{$/;"	c
+JarvisAndNumbers	HackerEarth/src/com/hackerearth/codemonk/implementation/JarvisAndNumbers.java	/^public class JarvisAndNumbers {$/;"	c
+JarvisSevenSegments	HackerEarth/src/com/hackerearth/codemonk/implementation/JarvisSevenSegments.java	/^public class JarvisSevenSegments{$/;"	c
+Kangaroo	HackerRank/src/com/hackerrank/woc21/Kangaroo.java	/^public class Kangaroo {$/;"	c
+Kian	HackerEarth/src/com/hackerearth/codemonk/implementation/Kian.java	/^public class Kian {$/;"	c
+KillCodeLadoo	HackerEarth/src/com/hackerearth/codemonk/implementation/KillCodeLadoo.java	/^public class KillCodeLadoo {$/;"	c
+L	cryptopals_python/HexToCryptopals.py	/^L = [chr(i) for i in range(ord('A'), ord('Z')+1) + range(ord('a'), ord('z')+1)]$/;"	v
+LadyBugs	HackerRank/src/com/hackerrank/woc24/LadyBugs.java	/^public class LadyBugs {$/;"	c
+LargePrimeFactor	HackerRank/src/com/hackerrank/projecteuler/LargePrimeFactor.java	/^public class LargePrimeFactor {$/;"	c
+LibraryFine	HackerRank/src/com/hackerrank/LibraryFine.java	/^public class LibraryFine {$/;"	c
+ListNode	HackerEarth/src/com/hackerearth/codemonk/implementation/Tester.java	/^    ListNode(int x) {$/;"	m	class:ListNode
+ListNode	HackerEarth/src/com/hackerearth/codemonk/implementation/Tester.java	/^class ListNode {$/;"	c
+LongCommSubseq	GeekForGeek/src/org/geeksforgeeks/LongCommSubseq.java	/^public class LongCommSubseq{$/;"	c
+M	Competitions/src/com/clairvolex/FindString.py	/^    M=int(line.split(" ")[1])$/;"	v
+MergeSort	Algorithms/src/com/sorting/MergeSort.java	/^public class MergeSort {$/;"	c
+MinMax	HackerEarth/src/com/hackerearth/codemonk/implementation/MinMax.java	/^public class MinMax {$/;"	c
+MixingMilk	ICPC/src/MixingMilk.java	/^public class MixingMilk {$/;"	c
+Monk12	HackerEarth/src/com/hackerearth/codemonk/implementation/Monk12.java	/^class Monk12 {$/;"	c
+MultiplesFiveThree	HackerRank/src/com/hackerrank/projecteuler/MultiplesFiveThree.java	/^public class MultiplesFiveThree {$/;"	c
+MultiplesFiveThree	ICPC/src/net/projecteuler/MultiplesFiveThree.java	/^public class MultiplesFiveThree {$/;"	c
+N	Competitions/src/com/clairvolex/FindString.py	/^    N=int(line.split(" ")[0])$/;"	v
+NasaPatentFilter	doSelect/src/com/doselect/NasaPatentFilter.java	/^public class NasaPatentFilter{$/;"	c
+NestParan	CodingBat/src/com/codingbat/NestParan.java	/^public class NestParan{$/;"	c
+NoX	CodingBat/src/com/codingbat/NoX.java	/^public class NoX{$/;"	c
+OddFreq	HackerEarth/src/com/hackerearth/codemonk/bitwise/OddFreq.java	/^public class OddFreq{$/;"	c
+OddSequence	HackerEarth/src/com/hackerearth/codemonk/implementation/OddSequence.java	/^public class OddSequence{$/;"	c
+OrderedDict	cryptopals_python/HexToCryptopals.py	/^from collections import OrderedDict$/;"	i
+PairStar	CodingBat/src/com/codingbat/PairStar.java	/^public class PairStar{$/;"	c
+ParenBit	CodingBat/src/com/codingbat/ParenBit.java	/^public class ParenBit{$/;"	c
+PerfectBaseline	HackerEarth/src/com/hackerearth/codemonk/implementation/PerfectBaseline.java	/^public class PerfectBaseline{$/;"	c
+PowerN	CodingBat/src/com/codingbat/powerN.java	/^class PowerN{$/;"	c
+PresedentialProblem	HackerEarth/src/com/hackerearth/codemonk/implementation/PresedentialProblem.java	/^public class PresedentialProblem{$/;"	c
+PrimePalindromFinder	ICPC/src/PrimePalindromFinder.java	/^public class PrimePalindromFinder {$/;"	c
+PrintArray	SedgeWick/src/com/sedgewick/PrintArray.java	/^public class PrintArray{$/;"	c
+PrintHackerEarth	HackerEarth/src/com/hackerearth/codemonk/implementation/PrintHackerEarth.java	/^public class PrintHackerEarth {$/;"	c
+PriveSeive	treasure/PriveSeive.java	/^public class PriveSeive {$/;"	c
+ProductMod	HackerEarth/src/com/hackerearth/codemonk/implementation/ProductMod.java	/^public class ProductMod {$/;"	c
+QuickSort	Algorithms/src/com/sorting/QuickSort.java	/^public class QuickSort {$/;"	c
+QuickSort	HackerEarth/src/com/hackerearth/codemonk/sorting/QuickSort.java	/^public class QuickSort {$/;"	c
+RecursiveSums	HackerEarth/src/com/hackerearth/codemonk/implementation/RecursiveSums.java	/^class RecursiveSums{$/;"	c
+Reverse	HackerEarth/src/com/hackerearth/codemonk/implementation/Reverse.java	/^public class Reverse {$/;"	c
+RoundTableKillers	HackerEarth/src/com/hackerearth/codemonk/implementation/RoundTableKillers.java	/^public class RoundTableKillers{$/;"	c
+Salary1008	UriGym/src/com/uri/Salary1008.java	/^public class Salary1008{$/;"	c
+SamuCardGame	HackerEarth/src/com/hackerearth/codemonk/implementation/SamuCardGame.java	/^public class SamuCardGame{$/;"	c
+SeiveOFEratosthenes	treasure/SeiveOFEratosthenes.java	/^public class SeiveOFEratosthenes{$/;"	c
+SelectionSort	Algorithms/src/com/sorting/SelectionSort.java	/^public class SelectionSort {$/;"	c
+Serializer	serialization/src/com/serialization/main/Serializer.java	/^public class Serializer{$/;"	c
+Server	Distributed/src/com/distributed/storage/Server.java	/^public class Server {$/;"	c
+SimpleBlockingServer	IstanbulTechTalks/SimpleBlockingServer.java	/^public class SimpleBlockingServer{$/;"	c
+SimpleProduct1004	UriGym/src/com/uri/SimpleProduct1004.java	/^public class SimpleProduct1004{$/;"	c
+SimpleSum1003	UriGym/src/com/uri/SimpleSum1003.java	/^public class SimpleSum1003{$/;"	c
+SpaceCharFilter	treasure/FastInputStream.java	/^		public interface SpaceCharFilter $/;"	i	class:InputReader
+StrAdd	HackerEarth/src/com/hackerearth/codemonk/implementation/StrAdd.java	/^public class StrAdd {$/;"	c
+StrCount	CodingBat/src/com/codingbat/StrCount.java	/^public class StrCount{$/;"	c
+StringClean	CodingBat/src/com/codingbat/StringClean.java	/^public class StringClean{$/;"	c
+StringSearch	ICPC/src/StringSearch.java	/^public class StringSearch {$/;"	c
+SumOfDigit	CodingBat/src/com/codingbat/SumOfDigit.java	/^public class SumOfDigit{$/;"	c
+TaskScheduler	T0pC0d3r/src/com/topcoder/TaskScheduler.java	/^public class TaskScheduler {$/;"	c
+TaskSchedulerTestcase	T0pC0d3r/src/com/topcoder/TaskScheduler.java	/^	public TaskSchedulerTestcase(String name,int n,String ...testlist){$/;"	m	class:TaskSchedulerTestcase
+TaskSchedulerTestcase	T0pC0d3r/src/com/topcoder/TaskScheduler.java	/^class TaskSchedulerTestcase{$/;"	c
+TestClass	HackerEarth/src/com/hackerearth/codemonk/implementation/TestClass.java	/^class TestClass {$/;"	c
+Testcase	T0pC0d3r/src/com/topcoder/Username.java	/^	public Testcase(String name,String answer,String ...testlist){$/;"	m	class:Testcase
+Testcase	T0pC0d3r/src/com/topcoder/Username.java	/^class Testcase{$/;"	c
+Tester	HackerEarth/src/com/hackerearth/codemonk/implementation/Tester.java	/^class Tester {$/;"	c
+ToggleString	HackerEarth/src/com/hackerearth/codemonk/implementation/ToggleString.java	/^public class ToggleString {$/;"	c
+Transposition	SedgeWick/src/com/sedgewick/Transposition.java	/^public class Transposition{$/;"	c
+Triangle	CodingBat/src/com/codingbat/Triangle.java	/^public class Triangle{$/;"	c
+Trie	Algorithms/src/com/datastructures/TrieTest.java	/^	public Trie(){$/;"	m	class:Trie
+Trie	Algorithms/src/com/datastructures/TrieTest.java	/^class Trie{$/;"	c
+TrieTest	Algorithms/src/com/datastructures/TrieTest.java	/^public class TrieTest{$/;"	c
+Username	T0pC0d3r/src/com/topcoder/Username.java	/^public class Username {$/;"	c
+Varg2	viml/tests.vim	/^function! Varg2(...)$/;"	f
+War	HackerEarth/src/com/hackerearth/codemonk/implementation/War.java	/^public class War{$/;"	c
+a	algorithmic-toolbox/week1/APlusB.py	/^a = int(tokens[0])$/;"	v
+a	algorithmic-toolbox/week1/max_pairwise_product.py	/^a = [int(x) for x in raw_input().split()]$/;"	v
+add	HardPython/return.py	/^def add(a, b):$/;"	f
+addWord	Algorithms/src/com/datastructures/TrieTest.java	/^	public void addWord(String word){$/;"	m	class:Trie
+age	HardPython/input.py	/^age = raw_input()$/;"	v
+age	HardPython/prompting.py	/^age = raw_input("How old are you?")$/;"	v
+age	HardPython/return.py	/^age = add(30, 5)$/;"	v
+age	LearnPythonHardWay/Exercise3.py	/^age = raw_input("How old are you? ")$/;"	v
+allStar	CodingBat/src/com/codingbat/AllStar.java	/^	public static String allStar(String str){$/;"	m	class:AllStar
+amount_of_cheese	HardPython/funvar.py	/^amount_of_cheese = 10$/;"	v
+amount_of_crackers	HardPython/funvar.py	/^amount_of_crackers = 50$/;"	v
+answer	T0pC0d3r/src/com/topcoder/TaskScheduler.java	/^	public String answer;$/;"	f	class:TaskSchedulerTestcase
+answer	T0pC0d3r/src/com/topcoder/Username.java	/^	public String answer;$/;"	f	class:Testcase
+anton	JuniorTrng/CF-A/CF734-D2-A.py	/^        anton = anton + 1$/;"	v
+anton	JuniorTrng/CF-A/CF734-D2-A.py	/^anton = 0$/;"	v
+argv	HardPython/FileRW.py	/^from sys import argv$/;"	i
+argv	HardPython/FileRW1.py	/^from sys import argv$/;"	i
+argv	HardPython/funfiles.py	/^from sys import argv$/;"	i
+argv	HardPython/parameters.py	/^from sys import argv$/;"	i
+argv	HardPython/promtedpassage.py	/^from sys import argv$/;"	i
+array	HackerEarth/src/com/hackerearth/codemonk/implementation/ChessTournament.java	/^	static int[][] array;$/;"	f	class:ChessTournament
+array11	CodingBat/src/com/codingbat/Array11.java	/^	public static int array11(int[] nums,int index){$/;"	m	class:Array11
+array220	CodingBat/src/com/codingbat/Array220.java	/^	public static boolean array220(int[] nums,int index){$/;"	m	class:Array220
+array6	CodingBat/src/com/codingbat/Array6.java	/^	public static boolean array6(int[] nums,int index){$/;"	m	class:Array6
+average_passengers_per_car	HardPython/variables.py	/^average_passengers_per_car = passengers \/ cars_driven$/;"	v
+average_passengers_per_car	LearnPythonHardWay/Exercise2.py	/^average_passengers_per_car = passengers \/ cars_driven$/;"	v
+b	JuniorTrng/CF-A/CF791-D2-A.py	/^    b=b*2$/;"	v
+b	algorithmic-toolbox/week1/APlusB.py	/^b = int(tokens[1])$/;"	v
+backslash_cat	HardPython/escape.py	/^backslash_cat = "I'm \\\\ a \\\\ cat."$/;"	v
+binary	HardPython/StringsAndText.py	/^binary = "binary"$/;"	v
+binaryCounterf	HackerEarth/src/com/hackerearth/codemonk/implementation/Monk12.java	/^    public static int binaryCounterf(int[] list,int number,int start,int end,int count){$/;"	m	class:Monk12
+binaryCounterg	HackerEarth/src/com/hackerearth/codemonk/implementation/Monk12.java	/^    public static int binaryCounterg(int[] list,int number,int start,int end,int count){$/;"	m	class:Monk12
+binarySearch	Algorithms/src/com/search/BinarySearch.java	/^	public static int binarySearch(int[] array,int start,int end,int x){$/;"	m	class:BinarySearch
+binarySearch	HackerEarth/src/com/hackerearth/codemonk/implementation/MinMax.java	/^	public static int binarySearch(int value, int x, int y, int[] array) {$/;"	m	class:MinMax
+bit_string	HackerEarth/python/com/hackerearth/codemonk/implementation/CyclicString.py	/^    bit_string=raw_input()$/;"	v
+buf	treasure/FastInputStream.java	/^		private byte[] buf = new byte[1024];$/;"	f	class:InputReader	file:
+buildMaxHeap	Algorithms/src/com/sorting/HeapSort.java	/^	public void buildMaxHeap(int array[]){$/;"	m	class:HeapSort
+buildTree	HackerEarth/src/com/hackerearth/codemonk/implementation/ArrayInsertSegTree.java	/^	public static void buildTree(int[] array,int[] tree){$/;"	m	class:ArrayInsertSegTree
+calcEnergy	HackerEarth/src/com/hackerearth/codemonk/implementation/JarvisSevenSegments.java	/^	public static int calcEnergy(int num){$/;"	m	class:JarvisSevenSegments
+calculatePosition	HackerEarth/src/com/hackerearth/codemonk/implementation/BatmanTicTacToe.java	/^	public static int[] calculatePosition(int[] source,int direction){$/;"	m	class:BatmanTicTacToe
+carpool_capacity	HardPython/variables.py	/^carpool_capacity = cars_driven * space_in_a_car$/;"	v
+carpool_capacity	LearnPythonHardWay/Exercise2.py	/^carpool_capacity = cars_driven * space_in_a_car$/;"	v
+cars	HardPython/variables.py	/^cars = 100$/;"	v
+cars	LearnPythonHardWay/Exercise2.py	/^cars = 100$/;"	v
+cars_driven	HardPython/variables.py	/^cars_driven = drivers$/;"	v
+cars_driven	LearnPythonHardWay/Exercise2.py	/^cars_driven = drivers$/;"	v
+cars_not_driven	HardPython/variables.py	/^cars_not_driven = cars - drivers$/;"	v
+cars_not_driven	LearnPythonHardWay/Exercise2.py	/^cars_not_driven = cars - drivers$/;"	v
+changePI	CodingBat/src/com/codingbat/ChangePi.java	/^	public static String changePI(String str){$/;"	m	class:ChangePi
+changeXY	CodingBat/src/com/codingbat/ChangeXY.java	/^	public static String changeXY(String str){$/;"	m	class:ChangeXY
+checkNeibours	HackerRank/src/com/hackerrank/CavityMap.java	/^	private static boolean checkNeibours(int[][] mat,int i,int j){$/;"	m	class:CavityMap	file:
+checkPossiblity	Competitions/src/com/lendingkart/DaisyPassword.java	/^	public static boolean checkPossiblity(String S,String P){$/;"	m	class:DaisyPassword
+cheese_and_crackers	HardPython/funvar.py	/^def cheese_and_crackers(cheese_count, boxes_of_crackers):$/;"	f
+com.RangDe	Competitions/src/com/RangDe/DistinctPowers.java	/^package com.RangDe;$/;"	p
+com.RangDe	Competitions/src/com/RangDe/DistinctRanks.java	/^package com.RangDe;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/AllStar.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/Array11.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/Array220.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/Array6.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/BunnyEars.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/BunnyEars2.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/ChangePi.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/ChangeXY.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/Count11.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/Count7.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/Count8.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/CountAbc.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/CountHi.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/CountHi2.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/CountPairs.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/CountX.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/EndX.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/Factorial.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/Fibonacci.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/NestParan.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/NoX.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/PairStar.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/ParenBit.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/StrCount.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/StringClean.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/SumOfDigit.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/Triangle.java	/^package com.codingbat;$/;"	p
+com.codingbat	CodingBat/src/com/codingbat/powerN.java	/^package com.codingbat;$/;"	p
+com.cryptopals.sets.one	cryptopals_java/src/com/cryptopals/sets/one/Hex2B64.java	/^package com.cryptopals.sets.one;$/;"	p
+com.datastructures	Algorithms/src/com/datastructures/TrieTest.java	/^package com.datastructures;$/;"	p
+com.distributed.storage	Distributed/src/com/distributed/storage/Client.java	/^package com.distributed.storage;$/;"	p
+com.distributed.storage	Distributed/src/com/distributed/storage/Server.java	/^package com.distributed.storage;$/;"	p
+com.doselect	doSelect/src/com/doselect/NasaPatentFilter.java	/^package com.doselect;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/ArrayInsertSegTree.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/BatmanTicTacToe.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/BennyAndBalls.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/BobAndBombs.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/CharFreq.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/CheckPalindrome.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/ChessTournament.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/CodeStreak.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/CountDigits.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/CountDivisors.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/CountNumbers.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/CricketRating.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/FacebookPhoto.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/Factorial.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/FinalDestination.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/GiftForSagar.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/GiftFriends.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/GoodBadStrings.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/JarvisAndLone.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/JarvisAndNumbers.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/JarvisSevenSegments.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/Kian.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/KillCodeLadoo.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/MinMax.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/Monk12.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/OddSequence.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/PerfectBaseline.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/PresedentialProblem.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/PrintHackerEarth.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/ProductMod.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/RecursiveSums.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/Reverse.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/RoundTableKillers.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/RubikRotationRaj.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/SamuCardGame.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/StrAdd.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/TestClass.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/Tester.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/ToggleString.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.implementation	HackerEarth/src/com/hackerearth/codemonk/implementation/War.java	/^package com.hackerearth.codemonk.implementation;$/;"	p
+com.hackerearth.codemonk.sorting	HackerEarth/src/com/hackerearth/codemonk/sorting/QuickSort.java	/^package com.hackerearth.codemonk.sorting;$/;"	p
+com.hackerrank	HackerRank/src/com/hackerrank/CavityMap.java	/^package com.hackerrank;$/;"	p
+com.hackerrank	HackerRank/src/com/hackerrank/CeaserCipher.java	/^package com.hackerrank;$/;"	p
+com.hackerrank	HackerRank/src/com/hackerrank/DivisibleSum.java	/^package com.hackerrank;$/;"	p
+com.hackerrank	HackerRank/src/com/hackerrank/EqualStacks.java	/^package com.hackerrank;$/;"	p
+com.hackerrank	HackerRank/src/com/hackerrank/LibraryFine.java	/^package com.hackerrank;$/;"	p
+com.hackerrank.java	HackerRank/src/com/hackerrank/java/Anagrams.java	/^package com.hackerrank.java;$/;"	p
+com.hackerrank.java	HackerRank/src/com/hackerrank/java/DatePlay.java	/^package com.hackerrank.java;$/;"	p
+com.hackerrank.projecteuler	HackerRank/src/com/hackerrank/projecteuler/Fibonacci.java	/^package com.hackerrank.projecteuler;$/;"	p
+com.hackerrank.projecteuler	HackerRank/src/com/hackerrank/projecteuler/LargePrimeFactor.java	/^package com.hackerrank.projecteuler;$/;"	p
+com.hackerrank.projecteuler	HackerRank/src/com/hackerrank/projecteuler/MultiplesFiveThree.java	/^package com.hackerrank.projecteuler;$/;"	p
+com.hackerrank.woc21	HackerRank/src/com/hackerrank/woc21/Kangaroo.java	/^package com.hackerrank.woc21;$/;"	p
+com.hackerrank.woc24	HackerRank/src/com/hackerrank/woc24/AppleOrange.java	/^package com.hackerrank.woc24;$/;"	p
+com.hackerrank.woc24	HackerRank/src/com/hackerrank/woc24/LadyBugs.java	/^package com.hackerrank.woc24;$/;"	p
+com.lendingkart	Competitions/src/com/lendingkart/DaisyPassword.java	/^package com.lendingkart;$/;"	p
+com.search	Algorithms/src/com/search/BinarySearch.java	/^package com.search;$/;"	p
+com.sedgewick	SedgeWick/src/com/sedgewick/PrintArray.java	/^package com.sedgewick;$/;"	p
+com.sedgewick	SedgeWick/src/com/sedgewick/Transposition.java	/^package com.sedgewick;$/;"	p
+com.serialization.main	serialization/src/com/serialization/main/Serializer.java	/^package com.serialization.main;$/;"	p
+com.sorting	Algorithms/src/com/sorting/HeapSort.java	/^package com.sorting;$/;"	p
+com.sorting	Algorithms/src/com/sorting/HeapSort1.java	/^package com.sorting;$/;"	p
+com.sorting	Algorithms/src/com/sorting/InsertionSort.java	/^package com.sorting;$/;"	p
+com.sorting	Algorithms/src/com/sorting/MergeSort.java	/^package com.sorting;$/;"	p
+com.sorting	Algorithms/src/com/sorting/QuickSort.java	/^package com.sorting;$/;"	p
+com.sorting	Algorithms/src/com/sorting/SelectionSort.java	/^package com.sorting;$/;"	p
+com.topcoder	T0pC0d3r/src/com/topcoder/CoinSearchDP.java	/^package com.topcoder;$/;"	p
+com.topcoder	T0pC0d3r/src/com/topcoder/TaskScheduler.java	/^package com.topcoder;$/;"	p
+com.topcoder	T0pC0d3r/src/com/topcoder/Username.java	/^package com.topcoder;$/;"	p
+com.uri	UriGym/src/com/uri/AreaOfCircle1002.java	/^package com.uri;$/;"	p
+com.uri	UriGym/src/com/uri/Average1005.java	/^package com.uri;$/;"	p
+com.uri	UriGym/src/com/uri/Average1006.java	/^package com.uri;$/;"	p
+com.uri	UriGym/src/com/uri/Difference1007.java	/^package com.uri;$/;"	p
+com.uri	UriGym/src/com/uri/ExtremeBasic1001.java	/^package com.uri;$/;"	p
+com.uri	UriGym/src/com/uri/Salary1008.java	/^package com.uri;$/;"	p
+com.uri	UriGym/src/com/uri/SimpleProduct1004.java	/^package com.uri;$/;"	p
+com.uri	UriGym/src/com/uri/SimpleSum1003.java	/^package com.uri;$/;"	p
+combiner	ReliScore-TechX/OrderOfString/combiner.py	/^def combiner(list1,list2):$/;"	f
+combiner	ReliScore-TechX/OrderOfString/native_combiner.py	/^def combiner(list1,list2):$/;"	f
+compareTo	ICPC/src/MixingMilk.java	/^	public int compareTo(Farmer arg0) {$/;"	m	class:Farmer
+computer	HardPython/promtedpassage.py	/^computer = raw_input(prompt)$/;"	v
+count11	CodingBat/src/com/codingbat/Count11.java	/^	public static int count11(String str){$/;"	m	class:Count11
+count7	CodingBat/src/com/codingbat/Count7.java	/^	public static int count7(int number){$/;"	m	class:Count7
+count8	CodingBat/src/com/codingbat/Count8.java	/^	public static int count8(int number){$/;"	m	class:Count8
+countAbc	CodingBat/src/com/codingbat/CountAbc.java	/^	public static int countAbc(String str){$/;"	m	class:CountAbc
+countHi	CodingBat/src/com/codingbat/CountHi.java	/^	public static int countHi(String str){$/;"	m	class:CountHi
+countHi2	CodingBat/src/com/codingbat/CountHi2.java	/^	public static int countHi2(String str){$/;"	m	class:CountHi2
+countMatches	HackerEarth/src/com/hackerearth/codemonk/implementation/TestClass.java	/^    private static int countMatches(String string, String character){$/;"	m	class:TestClass	file:
+countPairs	CodingBat/src/com/codingbat/CountPairs.java	/^	public static int countPairs(String st){	$/;"	m	class:CountPairs
+countRR	HackerEarth/src/com/hackerearth/codemonk/implementation/CountingRR.java	/^	public static int countRR(String s){$/;"	m	class:CountingRR
+countWords	Algorithms/src/com/datastructures/TrieTest.java	/^	public int countWords(String word){$/;"	m	class:Trie
+countX	CodingBat/src/com/codingbat/CountX.java	/^	public static int countX(String str){$/;"	m	class:CountX
+counter	HackerEarth/src/com/hackerearth/codemonk/implementation/ChessTournament.java	/^	static int counter=0;$/;"	f	class:ChessTournament
+createCircularLinked	HackerEarth/src/com/hackerearth/codemonk/implementation/Tester.java	/^    private static ListNode createCircularLinked(int A, int len) {$/;"	m	class:Tester	file:
+createEdge	Algorithms/src/com/datastructures/TrieTest.java	/^	public Trie createEdge(){$/;"	m	class:Trie
+create_combs	ReliScore-TechX/OrderOfString/combiner.py	/^def create_combs(number):$/;"	f
+create_combs_even	ReliScore-TechX/OrderOfString/combiner.py	/^def create_combs_even(number):$/;"	f
+curChar	treasure/FastInputStream.java	/^		private int curChar;$/;"	f	class:InputReader	file:
+current_file	HardPython/funfiles.py	/^current_file = open(input_file)$/;"	v
+current_line	HardPython/funfiles.py	/^current_line = 1$/;"	v
+current_line	HardPython/funfiles.py	/^current_line = current_line + 1$/;"	v
+darik	JuniorTrng/CF-A/CF734-D2-A.py	/^        darik = darik + 1$/;"	v
+darik	JuniorTrng/CF-A/CF734-D2-A.py	/^darik = 0$/;"	v
+days	HardPython/Printing1.py	/^days = "Mon Tue Wed Thu Fri Sat Sun"$/;"	v
+devices	ReliScore-TechX/IOTCompression/vcompress.py	/^devices={}$/;"	v
+divide	HardPython/return.py	/^def divide(a, b):$/;"	f
+do_not	HardPython/StringsAndText.py	/^do_not = "don't"$/;"	v
+drivers	HardPython/variables.py	/^drivers = 30$/;"	v
+drivers	LearnPythonHardWay/Exercise2.py	/^drivers = 30$/;"	v
+e	HardPython/StringsAndText.py	/^e = "a string with a right side."$/;"	v
+earCount	CodingBat/src/com/codingbat/BunnyEars.java	/^	public static int earCount(int noOfBunnies){$/;"	m	class:BunnyEars
+edges	Algorithms/src/com/datastructures/TrieTest.java	/^	private Trie edges[];$/;"	f	class:Trie	file:
+encrypt	HackerRank/src/com/hackerrank/CeaserCipher.java	/^	private static String encrypt(String payload, int key) {$/;"	m	class:CeaserCipher	file:
+end1	HardPython/MorePrinting.py	/^end1 = "C"$/;"	v
+end10	HardPython/MorePrinting.py	/^end10 = "g"$/;"	v
+end11	HardPython/MorePrinting.py	/^end11 = "e"$/;"	v
+end12	HardPython/MorePrinting.py	/^end12 = "r"$/;"	v
+end2	HardPython/MorePrinting.py	/^end2 = "h"$/;"	v
+end3	HardPython/MorePrinting.py	/^end3 = "e"$/;"	v
+end4	HardPython/MorePrinting.py	/^end4 = "e"$/;"	v
+end5	HardPython/MorePrinting.py	/^end5 = "s"$/;"	v
+end6	HardPython/MorePrinting.py	/^end6 = "e" $/;"	v
+end7	HardPython/MorePrinting.py	/^end7 = "B" $/;"	v
+end8	HardPython/MorePrinting.py	/^end8 = "u"$/;"	v
+end9	HardPython/MorePrinting.py	/^end9 = "r"$/;"	v
+endX	CodingBat/src/com/codingbat/EndX.java	/^	public static String endX(String str){$/;"	m	class:EndX
+factorial	CodingBat/src/com/codingbat/Factorial.java	/^	public static long factorial(long number){$/;"	m	class:Factorial
+factorial	HackerEarth/src/com/hackerearth/codemonk/implementation/Factorial.java	/^	public static long factorial(int n){$/;"	m	class:Factorial
+farmers	ICPC/src/MixingMilk.java	/^	public static ArrayList<Farmer> farmers=new ArrayList<Farmer>();$/;"	f	class:MixingMilk
+fibonacci	CodingBat/src/com/codingbat/Fibonacci.java	/^	public static int fibonacci(int target){$/;"	m	class:Fibonacci
+file_again	HardPython/FileRW.py	/^file_again = raw_input(">")$/;"	v
+filter	treasure/FastInputStream.java	/^		private SpaceCharFilter filter;$/;"	f	class:InputReader	file:
+find	Competitions/src/com/RangDe/DistinctRanks.java	/^	public static boolean find(int start,int end,int x,int[] list){$/;"	m	class:DistinctRanks
+findCavity	HackerRank/src/com/hackerrank/CavityMap.java	/^	private static String[] findCavity(int[][] mat) {$/;"	m	class:CavityMap	file:
+findFirst	ICPC/src/StringSearch.java	/^	public boolean findFirst() {$/;"	m	class:Finder
+findLogBase2ForPowerOf2	HackerEarth/src/com/hackerearth/codemonk/implementation/CoinGame.java	/^	public static int findLogBase2ForPowerOf2(int number){$/;"	m	class:CoinGame
+findPairs	HackerRank/src/com/hackerrank/DivisibleSum.java	/^	public static int findPairs(int n,int k,int ...numbers){$/;"	m	class:DivisibleSum
+findPairs	HackerRank/src/com/hackerrank/EqualStacks.java	/^	public static int findPairs(int n1,int n2,int n3,int stacks[][]){$/;"	m	class:EqualStacks
+findPlace	Competitions/src/com/RangDe/DistinctRanks.java	/^	public static int findPlace(int i,int[] list){$/;"	m	class:DistinctRanks
+findSurvivor	HackerEarth/src/com/hackerearth/codemonk/implementation/RoundTableKillers.java	/^	public static int findSurvivor(int N,int K,int X){$/;"	m	class:RoundTableKillers
+findWinner	HackerEarth/src/com/hackerearth/codemonk/implementation/ChessTournament.java	/^	public static int findWinner(int a,int b){$/;"	m	class:ChessTournament
+findWinner	HackerEarth/src/com/hackerearth/codemonk/implementation/CoinGame.java	/^	public static boolean findWinner(List<Integer> piles){					$/;"	m	class:CoinGame
+formatter	HardPython/Printing.py	/^formatter = "%r %r %r %r"$/;"	v
+frequencySort	GeekForGeek/src/org/geeksforgeeks/FrequencySort.java	/^	public static int[] frequencySort(int[] arr){$/;"	m	class:FrequencySort
+getFrequencies	HackerEarth/src/com/hackerearth/codemonk/implementation/TestClass.java	/^    private static int[] getFrequencies(String input, String character, int substringsLength){$/;"	m	class:TestClass	file:
+getGamePlay	HackerEarth/src/com/hackerearth/codemonk/implementation/BatmanTicTacToe.java	/^	public static int[][] getGamePlay(BufferedReader br) throws Exception{$/;"	m	class:BatmanTicTacToe
+getIndex	cryptopals_java/src/com/cryptopals/sets/one/Hex2B64.java	/^	public static int getIndex(char c){$/;"	m	class:Hex2B64
+getMax	Algorithms/src/com/sorting/HeapSort1.java	/^	public static int getMax(){$/;"	m	class:HeapSort1
+getMaxFrequency	HackerEarth/src/com/hackerearth/codemonk/implementation/TestClass.java	/^    private static int getMaxFrequency(String input, String character, int substringsLength){$/;"	m	class:TestClass	file:
+getPrefixs	Algorithms/src/com/datastructures/TrieTest.java	/^	public int getPrefixs(){$/;"	m	class:Trie
+getWords	Algorithms/src/com/datastructures/TrieTest.java	/^	public int getWords(){$/;"	m	class:Trie
+hPartition	Algorithms/src/com/sorting/QuickSort.java	/^	private static int hPartition(int[] array,int start,int end){$/;"	m	class:QuickSort	file:
+handle	IstanbulTechTalks/BlockingServerThreaded.java	/^	private static void handle(Socket s){$/;"	m	class:BlockingServerThreaded	file:
+handle	IstanbulTechTalks/SimpleBlockingServer.java	/^	private static void handle(Socket s){$/;"	m	class:SimpleBlockingServer	file:
+hasWinningMove	HackerEarth/src/com/hackerearth/codemonk/implementation/BatmanTicTacToe.java	/^	public static boolean hasWinningMove(int[][] gamePlay){$/;"	m	class:BatmanTicTacToe
+heapsize	Algorithms/src/com/sorting/HeapSort.java	/^	int heapsize;$/;"	f	class:HeapSort
+heapsize	Algorithms/src/com/sorting/HeapSort1.java	/^	private static int heapsize;$/;"	f	class:HeapSort1	file:
+height	HardPython/input.py	/^height = raw_input()$/;"	v
+height	HardPython/prompting.py	/^height = raw_input("How tall are you?")$/;"	v
+height	HardPython/return.py	/^height = subtract(78, 4)$/;"	v
+height	LearnPythonHardWay/Exercise3.py	/^height = raw_input("How tall are you? ")$/;"	v
+heights	JuniorTrng/CF-A/CF677-D2-A.py	/^heights = list(map(int,raw_input().split(" ")))$/;"	v
+hilarious	HardPython/StringsAndText.py	/^hilarious = False$/;"	v
+index	Competitions/src/com/clairvolex/FindString.py	/^            index=rows[x%N].index(test[x])$/;"	v
+initialize	Algorithms/src/com/datastructures/TrieTest.java	/^	public void initialize(){$/;"	m	class:Trie
+inp	ReliScore-TechX/OrderOfString/combiner.py	/^inp = open("input.txt","r")$/;"	v
+input	algorithmic-toolbox/week1/APlusB.py	/^input = sys.stdin.read()$/;"	v
+insertion	ICPC/src/InsertionSort.java	/^	public static int[] insertion(int ...input){$/;"	m	class:InsertionSort
+iq	HardPython/return.py	/^iq = divide(100,2)$/;"	v
+isAnagram	HackerRank/src/com/hackerrank/java/Anagrams.java	/^	static boolean isAnagram(String a, String b) {$/;"	m	class:Anagrams
+isPalindrome	ICPC/src/PrimePalindromFinder.java	/^	public static boolean isPalindrome(int i){$/;"	m	class:PrimePalindromFinder
+isSpaceChar	treasure/FastInputStream.java	/^			public boolean isSpaceChar(int ch);$/;"	m	interface:InputReader.SpaceCharFilter
+isSpaceChar	treasure/FastInputStream.java	/^		public boolean isSpaceChar(int c) $/;"	m	class:InputReader
+isSubed	HackerEarth/src/com/hackerearth/codemonk/implementation/OddSequence.java	/^	public static boolean isSubed(List<Integer> numbers){$/;"	m	class:OddSequence
+isValidLocation	HackerEarth/src/com/hackerearth/codemonk/implementation/BatmanTicTacToe.java	/^	public static boolean isValidLocation(int[] source){$/;"	m	class:BatmanTicTacToe
+joke_evaluation	HardPython/StringsAndText.py	/^joke_evaluation = "Isn't that joke so funny?! %r"$/;"	v
+l	JuniorTrng/CF-A/CF791-D2-A.py	/^    l=l*3$/;"	v
+left	Algorithms/src/com/sorting/HeapSort.java	/^	public int left(int i){$/;"	m	class:HeapSort
+length	JuniorTrng/CF-A/CF734-D2-A.py	/^length = int(raw_input())$/;"	v
+likes	HardPython/promtedpassage.py	/^likes = raw_input(prompt)$/;"	v
+line	Competitions/src/com/clairvolex/FindString.py	/^    line=raw_input()$/;"	v
+line1	HardPython/FileRW1.py	/^line1 = raw_input("line 1: ")$/;"	v
+line2	HardPython/FileRW1.py	/^line2 = raw_input("line 2: ")$/;"	v
+line3	HardPython/FileRW1.py	/^line3 = raw_input("line 3: ")$/;"	v
+listOfOccurences	ICPC/src/StringSearch.java	/^	String[] listOfOccurences;$/;"	f	class:Finder
+listOfPandromes	ICPC/src/PrimePalindromFinder.java	/^	public static ArrayList<Integer> listOfPandromes(int min,int max){$/;"	m	class:PrimePalindromFinder
+lives	HardPython/promtedpassage.py	/^lives = raw_input(prompt)$/;"	v
+main	Algorithms/src/com/datastructures/TrieTest.java	/^	public static void main(String args[]){$/;"	m	class:TrieTest
+main	Algorithms/src/com/search/BinarySearch.java	/^	public static void main(String[] arg){$/;"	m	class:BinarySearch
+main	Algorithms/src/com/sorting/HeapSort.java	/^	public static void main(String[] args) {$/;"	m	class:HeapSort
+main	Algorithms/src/com/sorting/HeapSort1.java	/^	public static void main(String args[]){$/;"	m	class:HeapSort1
+main	Algorithms/src/com/sorting/InsertionSort.java	/^	public static void main(String args[]){$/;"	m	class:InsertionSort
+main	Algorithms/src/com/sorting/MergeSort.java	/^	public static void main(String[] args) {$/;"	m	class:MergeSort
+main	Algorithms/src/com/sorting/QuickSort.java	/^	public static void main(String args[]) {$/;"	m	class:QuickSort
+main	Algorithms/src/com/sorting/SelectionSort.java	/^	public static void main(String[] args) {$/;"	m	class:SelectionSort
+main	CodingBat/src/com/codingbat/AllStar.java	/^	public static void main(String args[]){$/;"	m	class:AllStar
+main	CodingBat/src/com/codingbat/Array11.java	/^	public static void main(String[] args){$/;"	m	class:Array11
+main	CodingBat/src/com/codingbat/Array220.java	/^	public static void main(String args[]){$/;"	m	class:Array220
+main	CodingBat/src/com/codingbat/Array6.java	/^	public static void main(String args[]){$/;"	m	class:Array6
+main	CodingBat/src/com/codingbat/BunnyEars.java	/^	public static void main(String args[]){$/;"	m	class:BunnyEars
+main	CodingBat/src/com/codingbat/BunnyEars2.java	/^	public static void main(String args[]){$/;"	m	class:BunnyEars2
+main	CodingBat/src/com/codingbat/ChangePi.java	/^	public static void main(String args[]){$/;"	m	class:ChangePi
+main	CodingBat/src/com/codingbat/ChangeXY.java	/^	public static void main(String args[]){$/;"	m	class:ChangeXY
+main	CodingBat/src/com/codingbat/Count11.java	/^	public static void main(String args[]){$/;"	m	class:Count11
+main	CodingBat/src/com/codingbat/Count7.java	/^	public static void main(String args[]){$/;"	m	class:Count7
+main	CodingBat/src/com/codingbat/Count8.java	/^	public static void main(String args[]){$/;"	m	class:Count8
+main	CodingBat/src/com/codingbat/CountAbc.java	/^	public static void main(String args[]){$/;"	m	class:CountAbc
+main	CodingBat/src/com/codingbat/CountHi.java	/^	public static void main(String[] args){$/;"	m	class:CountHi
+main	CodingBat/src/com/codingbat/CountHi2.java	/^	public static void main(String args[]){$/;"	m	class:CountHi2
+main	CodingBat/src/com/codingbat/CountPairs.java	/^	public static void main(String args[]){$/;"	m	class:CountPairs
+main	CodingBat/src/com/codingbat/CountX.java	/^	public static void main(String args[]){$/;"	m	class:CountX
+main	CodingBat/src/com/codingbat/EndX.java	/^	public static void main(String args[]){$/;"	m	class:EndX
+main	CodingBat/src/com/codingbat/Factorial.java	/^	public static void main(String[] args) throws IOException{$/;"	m	class:Factorial
+main	CodingBat/src/com/codingbat/Fibonacci.java	/^	public static void main(String args[]){$/;"	m	class:Fibonacci
+main	CodingBat/src/com/codingbat/NestParan.java	/^	public static void main(String args[]){$/;"	m	class:NestParan
+main	CodingBat/src/com/codingbat/NoX.java	/^	public static void main(String args[]){$/;"	m	class:NoX
+main	CodingBat/src/com/codingbat/PairStar.java	/^	public static void main(String args[]){$/;"	m	class:PairStar
+main	CodingBat/src/com/codingbat/ParenBit.java	/^	public static void main(String args[]){$/;"	m	class:ParenBit
+main	CodingBat/src/com/codingbat/StrCount.java	/^	public static void main(String args[]){$/;"	m	class:StrCount
+main	CodingBat/src/com/codingbat/StringClean.java	/^	public static void main(String args[]){$/;"	m	class:StringClean
+main	CodingBat/src/com/codingbat/SumOfDigit.java	/^	public static void main(String args[]){$/;"	m	class:SumOfDigit
+main	CodingBat/src/com/codingbat/Triangle.java	/^	public static void main(String args[]){$/;"	m	class:Triangle
+main	CodingBat/src/com/codingbat/powerN.java	/^	public static void main(String args[]){$/;"	m	class:PowerN
+main	Competitions/src/com/RangDe/DistinctPowers.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:DistinctPowers
+main	Competitions/src/com/RangDe/DistinctRanks.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:DistinctRanks
+main	Competitions/src/com/lendingkart/DaisyPassword.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:DaisyPassword
+main	ConcurrentModExceptionDemo.java	/^	public static void main(String args[]) { $/;"	m	class:ConcurrentModExceptionDemo
+main	Distributed/src/com/distributed/storage/Client.java	/^	public static void main(String[] args) throws NumberFormatException, UnknownHostException, IOException {$/;"	m	class:Client
+main	Distributed/src/com/distributed/storage/Server.java	/^	public static void main(String args[]) throws Exception{$/;"	m	class:Server
+main	GeekForGeek/src/org/geeksforgeeks/FrequencySort.java	/^	public static void main(String args[]){$/;"	m	class:FrequencySort
+main	GeekForGeek/src/org/geeksforgeeks/LongCommSubseq.java	/^	public static void main(String args[]){$/;"	m	class:LongCommSubseq
+main	HackerEarth/src/com/hackerearth/codemonk/bitwise/OddFreq.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:OddFreq
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/ArrayInsertSegTree.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:ArrayInsertSegTree
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/BatmanTicTacToe.java	/^	public static void main(String args[]) throws Exception{$/;"	m	class:BatmanTicTacToe
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/BennyAndBalls.java	/^	public static void main(String[] args) {$/;"	m	class:BennyAndBalls
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/BobAndBombs.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:BobAndBombs
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/CharFreq.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:CharFreq
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/CheckPalindrome.java	/^	public static void main(String args[]){$/;"	m	class:CheckPalindrome
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/ChessTournament.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:ChessTournament
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/CodeStreak.java	/^	public static void main(String[] args) throws IOException{$/;"	m	class:CodeStreak
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/CoinGame.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:CoinGame
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/CountDigits.java	/^	public static void main(String[] args) {$/;"	m	class:CountDigits
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/CountDivisors.java	/^	public static void main(String[] args) {$/;"	m	class:CountDivisors
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/CountNumbers.java	/^	public static void main(String args[]){$/;"	m	class:CountNumbers
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/CountingRR.java	/^	public static void main(String[] args) throws IOException{$/;"	m	class:CountingRR
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/CricketRating.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:CricketRating
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/FacebookPhoto.java	/^	public static void main(String[] args) {$/;"	m	class:FacebookPhoto
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/Factorial.java	/^	public static void main(String[] args) {$/;"	m	class:Factorial
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/FinalDestination.java	/^	public static void main(String[] args) throws IOException {$/;"	m	class:FinalDestination
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/GiftForSagar.java	/^	public static void main(String args[]) throws IOException,Exception{$/;"	m	class:GiftForSagar
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/GiftFriends.java	/^	public static void main(String[] args) throws NumberFormatException, IOException {$/;"	m	class:GiftFriends
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/GoodBadStrings.java	/^	public static void main(String[] args) throws NumberFormatException, IOException {$/;"	m	class:GoodBadStrings
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/JarvisAndLone.java	/^	public static void main(String args[]) throws Exception{$/;"	m	class:JarvisAndLone
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/JarvisAndNumbers.java	/^    public static void main(String args[] ) throws Exception {$/;"	m	class:JarvisAndNumbers
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/JarvisSevenSegments.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:JarvisSevenSegments
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/Kian.java	/^	public static void main(String[] args) {$/;"	m	class:Kian
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/KillCodeLadoo.java	/^	public static void main(String[] args) throws IOException {$/;"	m	class:KillCodeLadoo
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/MinMax.java	/^	public static void main(String[] args) {$/;"	m	class:MinMax
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/Monk12.java	/^    public static void main(String args[] ) throws Exception {$/;"	m	class:Monk12
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/OddSequence.java	/^	public static void main(String[] args) throws IOException{$/;"	m	class:OddSequence
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/PerfectBaseline.java	/^	public static void main(String[] args) throws IOException{$/;"	m	class:PerfectBaseline
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/PresedentialProblem.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:PresedentialProblem
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/PrintHackerEarth.java	/^	public static void main(String[] args) {$/;"	m	class:PrintHackerEarth
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/ProductMod.java	/^	public static void main(String[] args) {$/;"	m	class:ProductMod
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/RecursiveSums.java	/^        public static void main(String[] args) throws IOException{$/;"	m	class:RecursiveSums
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/Reverse.java	/^	public static void main(String[] args) throws NumberFormatException, IOException {$/;"	m	class:Reverse
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/RoundTableKillers.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:RoundTableKillers
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/SamuCardGame.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:SamuCardGame
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/StrAdd.java	/^	public static void main(String[] args) {$/;"	m	class:StrAdd
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/TestClass.java	/^    public static void main(String args[] ) throws Exception {$/;"	m	class:TestClass
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/Tester.java	/^    public static void main(String[] args) throws FileNotFoundException {$/;"	m	class:Tester
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/ToggleString.java	/^	public static void main(String[] args) {$/;"	m	class:ToggleString
+main	HackerEarth/src/com/hackerearth/codemonk/implementation/War.java	/^	public static void main(String[] args) throws IOException{$/;"	m	class:War
+main	HackerEarth/src/com/hackerearth/codemonk/sorting/QuickSort.java	/^	public static void main(String args[]) throws NumberFormatException, IOException {$/;"	m	class:QuickSort
+main	HackerRank/src/com/hackerrank/CavityMap.java	/^	public static void main(String[] args) {$/;"	m	class:CavityMap
+main	HackerRank/src/com/hackerrank/CeaserCipher.java	/^	public static void main(String[] args) {$/;"	m	class:CeaserCipher
+main	HackerRank/src/com/hackerrank/DivisibleSum.java	/^	public static void main(String args[]) throws Exception{$/;"	m	class:DivisibleSum
+main	HackerRank/src/com/hackerrank/EqualStacks.java	/^	public static void main(String args[]) throws Exception{$/;"	m	class:EqualStacks
+main	HackerRank/src/com/hackerrank/LibraryFine.java	/^	public static void main(String[] args) throws FileNotFoundException {$/;"	m	class:LibraryFine
+main	HackerRank/src/com/hackerrank/java/Anagrams.java	/^	public static void main(String args[]){$/;"	m	class:Anagrams
+main	HackerRank/src/com/hackerrank/java/DatePlay.java	/^	public static void main(String args[]){$/;"	m	class:DatePlay
+main	HackerRank/src/com/hackerrank/projecteuler/Fibonacci.java	/^	public static void main(String[] args) {$/;"	m	class:Fibonacci
+main	HackerRank/src/com/hackerrank/projecteuler/LargePrimeFactor.java	/^	public static void main(String[] args) {$/;"	m	class:LargePrimeFactor
+main	HackerRank/src/com/hackerrank/projecteuler/MultiplesFiveThree.java	/^	public static void main(String[] args) {$/;"	m	class:MultiplesFiveThree
+main	HackerRank/src/com/hackerrank/woc21/Kangaroo.java	/^    public static void main(String[] args) throws FileNotFoundException {$/;"	m	class:Kangaroo
+main	HackerRank/src/com/hackerrank/woc24/AppleOrange.java	/^    public static void main(String[] args) {$/;"	m	class:AppleOrange
+main	HackerRank/src/com/hackerrank/woc24/LadyBugs.java	/^    public static void main(String[] args) {$/;"	m	class:LadyBugs
+main	ICPC/src/GridSearch.java	/^	public static void main(String[] args) throws Exception {	$/;"	m	class:GridSearch
+main	ICPC/src/InsertionSort.java	/^	public static void main(String[] args) {$/;"	m	class:InsertionSort
+main	ICPC/src/MixingMilk.java	/^	public static void main(String[] args) {$/;"	m	class:MixingMilk
+main	ICPC/src/PrimePalindromFinder.java	/^	public static void main(String[] args) {$/;"	m	class:PrimePalindromFinder
+main	ICPC/src/StringSearch.java	/^	public static void main(String[] args) throws FileNotFoundException {$/;"	m	class:StringSearch
+main	ICPC/src/net/projecteuler/EvenFibonacci.java	/^	public static void main(String[] args) {$/;"	m	class:EvenFibonacci
+main	ICPC/src/net/projecteuler/MultiplesFiveThree.java	/^	public static void main(String[] args) {$/;"	m	class:MultiplesFiveThree
+main	IstanbulTechTalks/BlockingServerThreaded.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:BlockingServerThreaded
+main	IstanbulTechTalks/SimpleBlockingServer.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:SimpleBlockingServer
+main	SedgeWick/src/com/sedgewick/PrintArray.java	/^	public static void main(String args[]){$/;"	m	class:PrintArray
+main	SedgeWick/src/com/sedgewick/Transposition.java	/^	public static void main(String args[]){$/;"	m	class:Transposition
+main	T0pC0d3r/src/com/topcoder/CoinSearchDP.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:CoinSearchDP
+main	T0pC0d3r/src/com/topcoder/TaskScheduler.java	/^	public static void main(String[] args) {$/;"	m	class:TaskScheduler
+main	T0pC0d3r/src/com/topcoder/Username.java	/^	public static void main(String[] args) {$/;"	m	class:Username
+main	UriGym/src/com/uri/AreaOfCircle1002.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:AreaOfCircle1002
+main	UriGym/src/com/uri/Average1005.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:Average1005
+main	UriGym/src/com/uri/Average1006.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:Average1006
+main	UriGym/src/com/uri/Difference1007.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:Difference1007
+main	UriGym/src/com/uri/ExtremeBasic1001.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:ExtremeBasic1001
+main	UriGym/src/com/uri/Salary1008.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:Salary1008
+main	UriGym/src/com/uri/SimpleProduct1004.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:SimpleProduct1004
+main	UriGym/src/com/uri/SimpleSum1003.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:SimpleSum1003
+main	cpp/hello.cpp	/^int main()$/;"	f
+main	cryptopals_java/src/com/cryptopals/sets/one/Hex2B64.java	/^	public static void main(String args[]) throws IOException{$/;"	m	class:Hex2B64
+main	doSelect/src/com/doselect/NasaPatentFilter.java	/^	public static void main(String args[]) throws Exception{$/;"	m	class:NasaPatentFilter
+main	serialization/src/com/serialization/main/Serializer.java	/^	public static void main(String args[]){$/;"	m	class:Serializer
+main	techgig/CandidateCode.java	/^    public static void main(String[] args) throws IOException{$/;"	m	class:CandidateCode
+main	treasure/PriveSeive.java	/^    public static void main(String[] args) { $/;"	m	class:PriveSeive
+main	treasure/SeiveOFEratosthenes.java	/^	public static void main(String args[]){$/;"	m	class:SeiveOFEratosthenes
+master	ICPC/src/StringSearch.java	/^	String master;$/;"	f	class:Finder
+matches	JuniorTrng/CF-A/CF734-D2-A.py	/^matches = raw_input()$/;"	v
+math	ReliScore-TechX/OrderOfString/combiner.py	/^import math$/;"	i
+max1	algorithmic-toolbox/week1/max_pairwise_product.py	/^        max1=a[i]$/;"	v
+max1	algorithmic-toolbox/week1/max_pairwise_product.py	/^    max1=a[0]$/;"	v
+max1	algorithmic-toolbox/week1/max_pairwise_product.py	/^    max1=a[1]$/;"	v
+max2	algorithmic-toolbox/week1/max_pairwise_product.py	/^         max2=a[i]$/;"	v
+max2	algorithmic-toolbox/week1/max_pairwise_product.py	/^        max2=max1$/;"	v
+max2	algorithmic-toolbox/week1/max_pairwise_product.py	/^    max2=a[0]$/;"	v
+max2	algorithmic-toolbox/week1/max_pairwise_product.py	/^    max2=a[1]$/;"	v
+maxHeapify	Algorithms/src/com/sorting/HeapSort.java	/^	private void maxHeapify(int[] array, int i) {$/;"	m	class:HeapSort	file:
+maxHeapify	Algorithms/src/com/sorting/HeapSort1.java	/^	public static void maxHeapify(int[] array,int i,int heapsize){$/;"	m	class:HeapSort1
+merge	Algorithms/src/com/sorting/MergeSort.java	/^	private static void merge(int[] array, int left, int middle, int right) {$/;"	m	class:MergeSort	file:
+mergeSort	Algorithms/src/com/sorting/MergeSort.java	/^	private static void mergeSort(int[] array, int left, int right) {$/;"	m	class:MergeSort	file:
+min	Algorithms/python/OrderStatistic.py	/^        min = numbers[i]$/;"	v
+min	Algorithms/python/OrderStatistic.py	/^min = numbers[0]$/;"	v
+min	HackerEarth/src/com/hackerearth/codemonk/implementation/PrintHackerEarth.java	/^	public static int min(int a,int b){$/;"	m	class:PrintHackerEarth
+months	HardPython/Printing1.py	/^months = "Jan\\nFeb\\nMar\\nApr\\nMay\\nJun\\nJul\\nAug"$/;"	v
+multiply	HardPython/return.py	/^def multiply(a, b):$/;"	f
+my_age	HardPython/variables2.py	/^my_age = 35$/;"	v
+my_eyes	HardPython/variables2.py	/^my_eyes = "blue"$/;"	v
+my_hair	HardPython/variables2.py	/^my_hair = "brown"$/;"	v
+my_height	HardPython/variables2.py	/^my_height = 74  $/;"	v
+my_name	HardPython/variables2.py	/^my_name = "Yashdeep Hinge"$/;"	v
+my_teeth	HardPython/variables2.py	/^my_teeth = "white"$/;"	v
+my_weight	HardPython/variables2.py	/^my_weight = 180$/;"	v
+n	JuniorTrng/CF-A/CF791-D2-A.py	/^    n=n+1$/;"	v
+n	JuniorTrng/CF-A/CF791-D2-A.py	/^n = 0$/;"	v
+n	T0pC0d3r/src/com/topcoder/TaskScheduler.java	/^	public int n;$/;"	f	class:TaskSchedulerTestcase
+n	algorithmic-toolbox/week1/max_pairwise_product.py	/^n = int(raw_input())$/;"	v
+name	T0pC0d3r/src/com/topcoder/Username.java	/^	public String name;$/;"	f	class:Testcase
+nestParan	CodingBat/src/com/codingbat/NestParan.java	/^	public static boolean nestParan(String str){$/;"	m	class:NestParan
+net.projecteuler	ICPC/src/net/projecteuler/EvenFibonacci.java	/^package net.projecteuler;$/;"	p
+net.projecteuler	ICPC/src/net/projecteuler/MultiplesFiveThree.java	/^package net.projecteuler;$/;"	p
+newMember	T0pC0d3r/src/com/topcoder/TaskScheduler.java	/^	public String newMember(String[] list,int n){$/;"	m	class:TaskScheduler
+newMember	T0pC0d3r/src/com/topcoder/Username.java	/^	public String newMember(String[] existingNames,String newName){$/;"	m	class:Username
+next	HackerEarth/src/com/hackerearth/codemonk/implementation/Tester.java	/^    public ListNode next;$/;"	f	class:ListNode
+next	treasure/FastInputStream.java	/^		public String next() $/;"	m	class:InputReader
+nextDouble	treasure/FastInputStream.java	/^		public double nextDouble() $/;"	m	class:InputReader
+nextInt	treasure/FastInputStream.java	/^		public int nextInt()$/;"	m	class:InputReader
+nextLine	treasure/FastInputStream.java	/^		public String nextLine()$/;"	m	class:InputReader
+nextLong	treasure/FastInputStream.java	/^		public long nextLong() $/;"	m	class:InputReader
+noOfTestCases	HackerEarth/python/com/hackerearth/codemonk/implementation/CyclicString.py	/^noOfTestCases = int(raw_input())$/;"	v
+noX	CodingBat/src/com/codingbat/NoX.java	/^	public static String noX(String str){$/;"	m	class:NoX
+notExists	Algorithms/src/com/datastructures/TrieTest.java	/^	private boolean notExists(int k){$/;"	m	class:Trie	file:
+numChars	treasure/FastInputStream.java	/^		private int numChars;$/;"	f	class:InputReader	file:
+numOfTrailingZeros	HackerEarth/src/com/hackerearth/codemonk/implementation/CoinGame.java	/^	public static int numOfTrailingZeros(int i){$/;"	m	class:CoinGame
+number	ReliScore-TechX/OrderOfString/combiner.py	/^number = int(inp.readlines()[0])$/;"	v
+number_of_tests	Competitions/src/com/clairvolex/FindString.py	/^number_of_tests=int(raw_input())$/;"	v
+numbers	Algorithms/python/OrderStatistic.py	/^numbers = [4,2,3,3,5,5,6,1,1,3]$/;"	v
+oddFreqFinder	HackerEarth/src/com/hackerearth/codemonk/bitwise/OddFreq.java	/^	public static int oddFreqFinder(String[] numbers){$/;"	m	class:OddFreq
+operations_seq	techgig/CandidateCode.java	/^    public static String operations_seq(int[][] input1,int[][] input2)$/;"	m	class:CandidateCode
+order	ReliScore-TechX/OrderOfString/combiner.py	/^def order(n):$/;"	f
+order	ReliScore-TechX/OrderOfString/native_combiner.py	/^def order(n):$/;"	f
+org.geeksforgeeks	GeekForGeek/src/org/geeksforgeeks/FrequencySort.java	/^package org.geeksforgeeks;$/;"	p
+org.geeksforgeeks	GeekForGeek/src/org/geeksforgeeks/LongCommSubseq.java	/^package org.geeksforgeeks;$/;"	p
+output	ReliScore-TechX/OrderOfString/combiner.py	/^output = open("output.txt","w")$/;"	v
+pairStar	CodingBat/src/com/codingbat/PairStar.java	/^	public static String pairStar(String str){$/;"	m	class:PairStar
+parenBit	CodingBat/src/com/codingbat/ParenBit.java	/^	public static String parenBit(String str){$/;"	m	class:ParenBit
+partition	Algorithms/src/com/sorting/QuickSort.java	/^	private static int partition(int[] array, int start, int end) {$/;"	m	class:QuickSort	file:
+partition	HackerEarth/src/com/hackerearth/codemonk/sorting/QuickSort.java	/^	private static int partition(int[] array, int start, int end) {$/;"	m	class:QuickSort	file:
+passengers	HardPython/variables.py	/^passengers = 90$/;"	v
+passengers	LearnPythonHardWay/Exercise2.py	/^passengers = 90$/;"	v
+persian_cat	HardPython/escape.py	/^persian_cat ="I'm split\\non a line."$/;"	v
+power	CodingBat/src/com/codingbat/powerN.java	/^	public static int power(int base,int n){$/;"	m	class:PowerN
+poweroftwo	HackerEarth/src/com/hackerearth/codemonk/implementation/CoinGame.java	/^	public final static int[] poweroftwo={1,2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608, 16777216, 33554432, 67108864, 134217728, 268435456, 536870912, 1073741824};$/;"	f	class:CoinGame
+prefixs	Algorithms/src/com/datastructures/TrieTest.java	/^	private int prefixs;$/;"	f	class:Trie	file:
+price	ICPC/src/MixingMilk.java	/^	public int price;$/;"	f	class:Farmer
+printArray	Algorithms/src/com/sorting/HeapSort.java	/^	public static void printArray(int[] array){$/;"	m	class:HeapSort
+printArray	Algorithms/src/com/sorting/HeapSort1.java	/^	public static void printArray(int[] array){$/;"	m	class:HeapSort1
+printArray	Algorithms/src/com/sorting/QuickSort.java	/^	private static void printArray(int[] array) {$/;"	m	class:QuickSort	file:
+printArray	GeekForGeek/src/org/geeksforgeeks/FrequencySort.java	/^	public static void printArray(int[] arr){$/;"	m	class:FrequencySort
+printArray	HackerEarth/src/com/hackerearth/codemonk/implementation/JarvisSevenSegments.java	/^	public static void printArray(Integer[] array){$/;"	m	class:JarvisSevenSegments
+printArray	HackerEarth/src/com/hackerearth/codemonk/sorting/QuickSort.java	/^	private static void printArray(int[] array) {$/;"	m	class:QuickSort	file:
+printGamePlay	HackerEarth/src/com/hackerearth/codemonk/implementation/BatmanTicTacToe.java	/^	public static void printGamePlay(int[][] gamePlay){$/;"	m	class:BatmanTicTacToe
+printMatrix	SedgeWick/src/com/sedgewick/Transposition.java	/^	public static void printMatrix(int[][] matrix){$/;"	m	class:Transposition
+printSeq	ReliScore-TechX/OrderOfString/combiner.py	/^def printSeq(comby,outputStream):$/;"	f
+printSeq	ReliScore-TechX/OrderOfString/native_combiner.py	/^def printSeq(comby,outputStream):$/;"	f
+print_a_line	HardPython/funfiles.py	/^def print_a_line(line_count, f):$/;"	f
+print_all	HardPython/funfiles.py	/^def print_all(f):$/;"	f
+print_none	HardPython/functions1.py	/^def print_none():$/;"	f
+print_one	HardPython/functions1.py	/^def print_one(arg1):$/;"	f
+print_two	HardPython/functions1.py	/^def print_two(*args):$/;"	f
+print_two_again	HardPython/functions1.py	/^def print_two_again(arg1, arg2):$/;"	f
+printlen	ReliScore-TechX/OrderOfString/combiner.py	/^def printlen(comby,outputStream):$/;"	f
+processQueries	HackerEarth/src/com/hackerearth/codemonk/implementation/ArrayInsertSegTree.java	/^	public static void processQueries(BufferedReader br) throws IOException{$/;"	m	class:ArrayInsertSegTree
+prompt	HardPython/promtedpassage.py	/^prompt = ">"$/;"	v
+qsort	Algorithms/src/com/sorting/QuickSort.java	/^	public static void qsort(int[] array,int start,int end){$/;"	m	class:QuickSort
+qsort	HackerEarth/src/com/hackerearth/codemonk/sorting/QuickSort.java	/^	public static void qsort(int[] array,int start,int end){$/;"	m	class:QuickSort
+quantity	ICPC/src/MixingMilk.java	/^	public int quantity;$/;"	f	class:Farmer
+queryTree	HackerEarth/src/com/hackerearth/codemonk/implementation/ArrayInsertSegTree.java	/^	public static void queryTree(int[] array,int[] tree,int from,int to){$/;"	m	class:ArrayInsertSegTree
+read	treasure/FastInputStream.java	/^		public int read()$/;"	m	class:InputReader
+readString	treasure/FastInputStream.java	/^		public String readString() $/;"	m	class:InputReader
+requirement	ICPC/src/MixingMilk.java	/^	public static int requirement=0;$/;"	f	class:MixingMilk
+result	Competitions/src/com/clairvolex/FindString.py	/^           result=False$/;"	v
+result	Competitions/src/com/clairvolex/FindString.py	/^    result=True$/;"	v
+result	HackerEarth/python/com/hackerearth/codemonk/implementation/CyclicString.py	/^    result=(len(bit_string)(len(bit_string)+1))\/2$/;"	v
+resultset	HackerEarth/src/com/hackerearth/codemonk/implementation/Factorial.java	/^	static long[] resultset;$/;"	f	class:Factorial
+rewind	HardPython/funfiles.py	/^def rewind(f):$/;"	f
+right	Algorithms/src/com/sorting/HeapSort.java	/^	public int right(int i){$/;"	m	class:HeapSort
+rowdata	Competitions/src/com/clairvolex/FindString.py	/^            rowdata=rows[x%N]$/;"	v
+rows	Competitions/src/com/clairvolex/FindString.py	/^    rows={}$/;"	v
+sc	HackerRank/src/com/hackerrank/EqualStacks.java	/^	private static Scanner sc;$/;"	f	class:EqualStacks	file:
+sc	ICPC/src/GridSearch.java	/^	private static Scanner sc;$/;"	f	class:GridSearch	file:
+sc	ICPC/src/StringSearch.java	/^	private static Scanner sc;$/;"	f	class:StringSearch	file:
+setPrefixs	Algorithms/src/com/datastructures/TrieTest.java	/^	public void setPrefixs(int prefixs){$/;"	m	class:Trie
+setWords	Algorithms/src/com/datastructures/TrieTest.java	/^	public void setWords(int words){$/;"	m	class:Trie
+space_in_a_car	HardPython/variables.py	/^space_in_a_car = 4.0$/;"	v
+space_in_a_car	LearnPythonHardWay/Exercise2.py	/^space_in_a_car = 4.0$/;"	v
+standardPartition	Algorithms/src/com/sorting/QuickSort.java	/^	private static int standardPartition(int[] array,int start,int end){$/;"	m	class:QuickSort	file:
+standardPartition	HackerEarth/src/com/hackerearth/codemonk/sorting/QuickSort.java	/^	private static int standardPartition(int[] array,int start,int end){$/;"	m	class:QuickSort	file:
+store	ReliScore-TechX/IOTCompression/vcompress.py	/^def store(line,devices):$/;"	f
+strCount	CodingBat/src/com/codingbat/StrCount.java	/^	public static int strCount(String str,String sub){$/;"	m	class:StrCount
+stream	treasure/FastInputStream.java	/^		private InputStream stream;$/;"	f	class:InputReader	file:
+stringClean	CodingBat/src/com/codingbat/StringClean.java	/^	public static String stringClean(String str){$/;"	m	class:StringClean
+subtract	HardPython/return.py	/^def subtract(a, b):$/;"	f
+sumOfDigit	HackerEarth/src/com/hackerearth/codemonk/implementation/RecursiveSums.java	/^	public static long sumOfDigit(long d,long len){$/;"	m	class:RecursiveSums
+sumOfDigits	CodingBat/src/com/codingbat/SumOfDigit.java	/^	public static int sumOfDigits(int n){$/;"	m	class:SumOfDigit
+sys	algorithmic-toolbox/week1/APlusB.py	/^import sys$/;"	i
+tabby_cat	HardPython/escape.py	/^tabby_cat = "\\t I'm tabbed in."$/;"	v
+target	HardPython/FileRW1.py	/^target = open(filename,'w')$/;"	v
+test	Competitions/src/com/clairvolex/FindString.py	/^    test=raw_input()$/;"	v
+test	ICPC/src/StringSearch.java	/^	String test;$/;"	f	class:Finder
+testlist	T0pC0d3r/src/com/topcoder/TaskScheduler.java	/^	public String[] testlist;$/;"	f	class:TaskSchedulerTestcase
+testlist	T0pC0d3r/src/com/topcoder/Username.java	/^	public String[] testlist;$/;"	f	class:Testcase
+tokens	algorithmic-toolbox/week1/APlusB.py	/^tokens = input.split()$/;"	v
+totalPrice	ICPC/src/MixingMilk.java	/^	public static int totalPrice;$/;"	f	class:MixingMilk
+transmogrify	IstanbulTechTalks/BlockingServerThreaded.java	/^	private static int transmogrify(int data){$/;"	m	class:BlockingServerThreaded	file:
+transmogrify	IstanbulTechTalks/SimpleBlockingServer.java	/^	private static int transmogrify(int data){$/;"	m	class:SimpleBlockingServer	file:
+transpose	SedgeWick/src/com/sedgewick/Transposition.java	/^	public static int[][] transpose(int[][] matrix){$/;"	m	class:Transposition
+triangle	CodingBat/src/com/codingbat/Triangle.java	/^	public static int triangle(int rows){	$/;"	m	class:Triangle
+twoPower	Competitions/src/com/RangDe/DistinctPowers.java	/^	public static int twoPower(int i){$/;"	m	class:DistinctPowers
+txt	HardPython/FileRW.py	/^txt = open(filename)$/;"	v
+txt_again	HardPython/FileRW.py	/^txt_again = open(file_again)$/;"	v
+updateTree	HackerEarth/src/com/hackerearth/codemonk/implementation/ArrayInsertSegTree.java	/^	public static void updateTree(int[] array,int[] tree,int index,int value){$/;"	m	class:ArrayInsertSegTree
+val	HackerEarth/src/com/hackerearth/codemonk/implementation/Tester.java	/^    public int val;$/;"	f	class:ListNode
+w	HardPython/StringsAndText.py	/^w = "This is the left side of..."$/;"	v
+weight	HardPython/input.py	/^weight = raw_input()$/;"	v
+weight	HardPython/prompting.py	/^weight = raw_input("How much do you weight");$/;"	v
+weight	HardPython/return.py	/^weight = multiply(90, 2)$/;"	v
+weight	LearnPythonHardWay/Exercise3.py	/^weight = raw_input("How much do you weigh? ")$/;"	v
+what	HardPython/return.py	/^what = add(age, subtract(height, multiply(weight, divide(iq, 2)))$/;"	v
+width	JuniorTrng/CF-A/CF677-D2-A.py	/^        width = width+1$/;"	v
+width	JuniorTrng/CF-A/CF677-D2-A.py	/^        width = width+2$/;"	v
+width	JuniorTrng/CF-A/CF677-D2-A.py	/^width = 0$/;"	v
+words	Algorithms/src/com/datastructures/TrieTest.java	/^	private int words;$/;"	f	class:Trie	file:
+x	HardPython/StringsAndText.py	/^x = "There are %d types of people." % 10$/;"	v
+y	HardPython/StringsAndText.py	/^y = "Those who know %s and those who %s." % (binary, do_not)$/;"	v

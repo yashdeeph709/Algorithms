@@ -1,0 +1,4 @@
+A,B,C,D
+(A,B,8),(B,C,1),(C,D,1),(D,A,1),(B,A,2),(A,D,2),(D,C,2),(C,B,2)
+(B,A,FASTEST,1,4),(B,A,FASTEST,1,4),(A,B,SHORTEST,1,5),(B,A,FASTEST,1,6),(D,C,FASTEST,4,7),(A,B,FASTEST,1,10)
+
