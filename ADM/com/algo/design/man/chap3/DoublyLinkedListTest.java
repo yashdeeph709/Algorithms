@@ -1,53 +1,77 @@
 package com.algo.design.man.chap3;
 
-public class CircularLinkedListTest{
+public class DoublyLinkedListTest{
 	public static void main(String args[]){
 		deleteTest();
 		testInsert(5);
-		
+		testReverse(5);
+	}
+	public static void testReverse(int size){
+		DoublyLinkedList list=new DoublyLinkedList();
+		String[] names={"harshal","raku","guptaji","shashwat"};
+		String[] expected=new String[size];
+		for(int i=1;i<size;i++){
+			list.add(names[i%4]);
+			expected[i]=names[i%4];
+		}
+		String[] dat=new String[size];
+		for(int i=1;i<size;i++){
+			String data=list.get(i);
+			dat[i]=data;
+		}
+		for(int i=1;i<size;i++){
+			if(!dat[i].equals(expected[i])){
+				System.out.println("TestFailed");
+				return;
+			}
+		}
+		list.print();
+		list.printReverse();
+		System.out.println("Test Reverse Passed Successfully");
 	}
 	public static void testInsert(int size){
-		LinkedList list=new LinkedList();
+	DoublyLinkedList list=new DoublyLinkedList();
 		String[] names={"harshal","raku","guptaji","shashwat"};
 		for(int i=1;i<size;i++){
 			list.add(names[i%4]);
 		}
- 		for(int i=1;i<size;i++){
- 			String data=list.get(i);
- 			if(!names[i%4].equals(data)){
- 				System.out.println("Insertion Check Test Failed");
- 			}	
- 		}
-		//list.print();	
+		for(int i=1;i<size;i++){
+			String data=list.get(i);
+			if(!names[i%4].equals(data)){
+				System.out.println("Insertion Check Test Failed");
+			}	
+		}
 	}
 	public static void deleteTest(){
-		LinkedList list=new LinkedList();
+	DoublyLinkedList list=new DoublyLinkedList();
 		int size=10;
 		String[] names={"harshal","raku","guptaji","shashwat"};
 		for(int i=0;i<size;i++){
 			list.add(names[i%4]);
 		}
-		//list.print();
+		list.print();
 		list.delete(1);
 		list.delete(5);
 		list.delete(8);
 		System.out.println("After deletign 1,5,8");
-		//list.print();
+		list.print();
 	}
-	public static class LinkedList{
+	public static class DoublyLinkedList{
 		public Node start;
 		public Node end;
 		public int size;
-		public LinkedList(){
+		public DoublyLinkedList(){
 			start=null;
 			end=null;
 			size=0;
 		}
 		//Add a value to linkedlist
-		public void add(String name){ if(start==null){
+		public void add(String name){ 
+			if(start==null){
 				Node temp=new Node();
 				temp.data=name;
 				temp.next=null;
+				temp.previous=null;
 				start=temp;
 				end=temp;
 				size++;
@@ -56,9 +80,9 @@ public class CircularLinkedListTest{
 			Node temp=new Node();
 			temp.data=name;
 			temp.next=null;
+			temp.previous=end;
 			end.next=temp;
 			end=temp;
-			end.next=start;
 			size++;
 		}
 		public String get(int index){
@@ -92,7 +116,6 @@ public class CircularLinkedListTest{
 				}
 				ptr.next=null;
 				end=ptr;
-				end.next=start;
 				size--;
 				return;
 			}
@@ -133,9 +156,17 @@ public class CircularLinkedListTest{
 			}
 			System.out.println("]");
 		}
+		public void printReverse(){
+			Node ptr=start;
+			while(ptr.previous!=null){
+				System.out.println(ptr.data);
+				ptr=ptr.next;
+			}
+		}
 	}
 	public static class Node{
 		public Node next;
+		public Node previous;
 		public String data;
 		public Node(){next=null;}
 	}
