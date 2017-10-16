@@ -1,6 +1,6 @@
 package com.algo.design.man.chap3;
 
-public class LinkedListTest{
+public class CircularLinkedListTest{
 	public static void main(String args[]){
 		deleteTest();
 		testInsert(5);
