@@ -12,3 +12,4 @@
 9. InsertionSort on LinkedList - Insert in a linked List
 10. Heap (Max and Min Heap both) - Create Heap and search
 11. BinarySearchTree with TDD 
+12. HashMap basic implementation using generics (No focus on performance only focus was functionality) 
