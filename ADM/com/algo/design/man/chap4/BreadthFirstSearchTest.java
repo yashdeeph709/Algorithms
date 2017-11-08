@@ -71,9 +71,9 @@ public class BreadthFirstSearchTest{
 		}	
 	}
 	public static void VerboseBFS() throws Exception{
-		int noOfNodes=5;
+		int noOfNodes=6;
 		int[][] data=new int[][]{
-			{1,2},{1,5},{1,3},{2,3},{2,5},{3,4},{4,5}
+			{1,2},{1,5},{1,3},{2,3},{2,5},{3,4},{3,6},{4,5},{4,6}
 		};
 		AdjecencyList adjecencyList=new AdjecencyList(noOfNodes);
 		for(int i=0;i<data.length;i++){
@@ -176,7 +176,7 @@ public class BreadthFirstSearchTest{
 				i++;	
 			}
 			for(i=0;i<parent.length;i++){
-				System.out.println((i+1)+" is the child of  "+(1+parent[i]));
+				System.out.println((i+1)+" is the child of  "+(parent[i]));
 			}
 		}
 	}
@@ -185,7 +185,7 @@ public class BreadthFirstSearchTest{
 		for(int i=0;i<5;i++){
 			queue.enqueue(i);
 		}
-		for(int i=0;i<5;i++){
+		for(int i=4;i>=0;i--){
 			int a=queue.dequeue();
 			if(a!=i){
 				System.out.println("test failure"+i+""+a);
@@ -270,16 +270,10 @@ public class BreadthFirstSearchTest{
 				start=null;
 				return data;
 			}
-			Node node=start;
-			int i=0;
-			while(i!=size-2){
-				node=node.next;
-				i++;
-			}
-			System.out.println("Node:"+node);
-			int data=node.next.destination;
-			node.next=null;
-			size--;
+			int data=start.destination;	
+			Node next=start.next;
+			start.next=null;
+			start=next;
 			return data;
 		}
 		public boolean hasNext(){
