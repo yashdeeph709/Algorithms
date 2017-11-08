@@ -13,3 +13,6 @@
 10. Heap (Max and Min Heap both) - Create Heap and search
 11. BinarySearchTree with TDD 
 12. HashMap basic implementation using generics (No focus on performance only focus was functionality) 
+13. Adjecency List Implemenatation with fresh linkedlist.
+14. Adjecency matrix to Adjecency List Conversion with a fresh linkedlist.
+15. Breadth First Search: Implemented with Adjecency list and LinkedList and LinkedList Based Queue.(eventually due to a confusion I also implemented stack.:smile:)
