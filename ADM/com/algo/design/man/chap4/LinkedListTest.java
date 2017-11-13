@@ -4,11 +4,12 @@ import com.algo.design.man.chap4.LinkedList;
 
 public class LinkedListTest{
 	public static void main(String args[]){
-		//addTests();		
-		//getTests();
+		addTests();		
+		getTests();
+		removeTests();
+		addTests1();
 		LinkedListAsStack();
-		//removeTests();
-//		addTests1();
+		LinkedListAsQueue();
 	}
 	public static  void addTests(){
 		System.err.println("addTests");
@@ -26,6 +27,18 @@ public class LinkedListTest{
 		System.out.println("Adding 24 at 2 of list");
 		list.add(2,24);
 		list.print();
+	}
+	public static void LinkedListAsQueue(){
+		LinkedList<Integer> list=new LinkedList<Integer>();
+		for(int i=0;i<10;i++){
+			list.enqueue(i);
+		}
+		for(int i=0;i<10;i++){
+			if(i!=list.dequeue()){
+				System.out.println("Test Failure at "+i);
+			}
+		}
+		System.out.println("Test successful ");
 	}
 	public static void addTests1(){
 		LinkedList<Integer> list=new LinkedList<Integer>();

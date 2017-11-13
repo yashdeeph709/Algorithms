@@ -98,10 +98,10 @@ public class LinkedList<T>{
 	public void push(T element){
 		addAtStart(element);
 	}
-	public T enqueue(){
-		return remove(0);
-	}
-	public void dequeue(T element){
+	public void enqueue(T element){
 		add(element);
+	}
+	public T dequeue(){
+		return remove(0);
 	}
 }
