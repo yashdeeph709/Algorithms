@@ -1,6 +1,6 @@
 # Lectures by Professor Steven Skiena
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/A2bFN3MyNDA?list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp" frameborder="0" gesture="media" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=A2bFN3MyNDA" target="_blank"><img src="http://img.youtube.com/vi/A2bFN3MyNDA/0.jpg" alt="Lecture From Steven Skiena " width="500" height="300" border="10" /></a>
 
 Each and Every Problem here comes from One or More Lectures of this playlist.
 
