@@ -9,6 +9,7 @@ public class LinkedList<T>{
 	public LinkedList(){
 		header.next=header.previous=header;
 	}
+	
 	/*
 	 * Add Element at the end of the list.
 	 * @args T element : Element to be added
@@ -91,7 +92,6 @@ public class LinkedList<T>{
 		size--;
 		return result;
 	}
-	int i=0;
  	public T pop(){
 		return remove(0);
 	}
