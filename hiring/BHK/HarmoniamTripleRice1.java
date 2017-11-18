@@ -8,15 +8,58 @@ public class HarmoniamTripleRice1{
 		while(noOfTestCases-->0){
 			int sizeOfArray=is.nextInt();
 			int numOfQueries=is.nextInt();
-			ArrayList<Integer> array=new ArrayList<Integer>();
-			for(int i=1;i<sizeOfArray+1;i++){
-				array.add(is.nextInt());
+			ArrayList<NumberWithIndex> array=new ArrayList<NumberWithIndex>();
+			int[] nonSorted=new int[sizeOfArray];
+			for(int i=0;i<sizeOfArray;i++){
+				int data=is.nextInt();
+				array.add(new NumberWithIndex(data,i));
+				nonSorted[i]=data;
 			}
 			Collections.sort(array);
+			//System.out.println(array);
 			while(numOfQueries-->0){
 				int query=is.nextInt();
-				if(query<array.size() || query!=0){
-					int i=binarySearch(array,query);
+				query--;
+				//System.out.println(array.size());
+				if(query+1<array.size() || query!=0){
+					//System.out.println("Search"+ nonSorted[query]);
+					int i=binarySearch(array,nonSorted[query],query);
+					//System.out.println("Searched the query"+nonSorted[query]+" in sorted array"+i);
+					int leftMax=0,rightMax=0;
+					for(int j=i-1;j>=0;j--){
+						NumberWithIndex nwi=array.get(j);
+						//System.out.println("evaluating "+nwi);
+						//System.out.println("i=="+i);
+						if(leftMax==0 && nwi.index<query){
+							leftMax=array.get(j).data;
+							if(rightMax!=0){
+								break;
+							}
+						}		
+						if(rightMax==0 && nwi.index>query){
+							rightMax=array.get(j).data;
+							if(leftMax!=0){
+								break;
+							}
+						}
+					}
+					//System.out.println(array.size()+"array.size()");
+					if(i<array.size()-1){
+						i++;
+						while(array.get(i).data==nonSorted[query]){
+							if(array.get(i).index<query){
+								leftMax=array.get(i).data;
+							}
+							if(array.get(i).index>query){
+								rightMax=array.get(i).data;
+							}
+							i++;
+							if(i>=array.size()){
+								break;
+							}
+						}
+					}
+					System.out.println(leftMax*rightMax*nonSorted[query]);
 				}else{
 					System.out.println(0);
 				}
@@ -24,19 +67,40 @@ public class HarmoniamTripleRice1{
 		}
 
 	}
-	public static int binarySearch(ArrayList<Integer> list,int a){
+	static class NumberWithIndex implements Comparable<NumberWithIndex>{
+		public int data;
+		public int index;
+		public NumberWithIndex(int data,int index){
+			this.data=data;
+			this.index=index;
+		}
+		public int compareTo(NumberWithIndex nwi){
+			if(data==nwi.data){
+				return 0;
+			}else if(data>nwi.data){
+				return 1;
+			}else{
+				return -1;
+			}
+		}
+		public String toString(){
+			return data+","+index;
+		}
+	}
+	public static int binarySearch(ArrayList<NumberWithIndex> list,int a,int index){
 		int start = 0;
-		int end = array.length - 1;
+		int end = list.size()- 1;
 		while (start <= end) {
 			int middle = (start + end) / 2;
-			int valuemid=list.get(middle);
-			if (search < valuemid) {
+			//System.out.println("middle for ("+start+","+end+")"+middle+" "+list.get(middle).data);
+			NumberWithIndex valuemid=list.get(middle);
+			if (a< valuemid.data ) {
 				end = middle - 1;
 			}
-			if (search > valuemid) {
+			if (a> valuemid.data) {
 				start = middle + 1;
 			}
-			if (search == valuemid) {
+			if (a== valuemid.data) {
 				return middle;
 			}
 		}
