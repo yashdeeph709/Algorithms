@@ -4,7 +4,7 @@ package com.algo.design.man.chap4;
 public class DepthFirstSearch{
 
 	public static void main(String args[]){
-		AdjecencyList graph=new AdjecencyList(7);	
+		AdjecencyList graph=new AdjecencyList(7,false);	
 		int[][] graphList={
 			{1,3},{2,5},{2,4},{3,4},{3,5},{3,1},{3,7},{3,6},{4,5},{4,7},{4,6},
 		};

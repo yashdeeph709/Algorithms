@@ -5,9 +5,15 @@ import com.algo.design.man.chap4.LinkedList;
 @SuppressWarnings("unchecked")
 public class AdjecencyList{
 	private LinkedList data[];
+	private boolean directed; 
 	
-	public AdjecencyList(int size){
+	/*
+	 * @param: size is number of nodes the graph has.
+	 * @param: directed of the graph directed or undirected true:directed false:undirected
+	 */
+	public AdjecencyList(int size,boolean type){
 		data=new LinkedList[size+1];
+		directed=type;
 	}	
 	public int size(){
 		return data.length;
@@ -30,7 +36,7 @@ public class AdjecencyList{
 	 * @param end : Node number where edge ends.
 	 */
 	public void addEdge(int start,int end){
-		if(start<=0 || start>=data.length){
+		if(start<=0 || start>=data.length || end<=0 || end>=data.length){
 			return;
 		}
 		//System.out.println("List::addEdge called"+start+","+end);
@@ -41,6 +47,14 @@ public class AdjecencyList{
 			data[start]=list;
 		}
 		list.add(end);
+		if(!directed){
+			LinkedList<Integer> l1=data[end];
+			if(l1==null){
+				l1=new LinkedList<Integer>();
+				data[end]=l1;
+			}
+			l1.add(start);
+		}
 		//System.out.println("Added "+end+", at"+(list.size()+1));
 	}
 	public int search(int end,LinkedList<Integer> list){
@@ -89,7 +103,7 @@ public class AdjecencyList{
 		if(list!=null || list.size()<j){
 			return list.get(j);
 		}else{
-			return -1;
+					return -1;
 		}
 	}
 }
