@@ -103,7 +103,17 @@ public class AdjecencyList{
 		if(list!=null || list.size()<j){
 			return list.get(j);
 		}else{
-					return -1;
+			return -1;
+		}
+	}
+	public void print(){
+		for(int i=1;i<this.size();i++){
+			System.out.printf("Node %d:",i);
+			for(int j=0;j<this.numberOfEdges(i);j++){
+				System.out.printf( " %d",this.getEdge(i,j));
+
+			}
+			System.out.println();
 		}
 	}
 }
