@@ -28,6 +28,7 @@ Each and Every Problem here comes from One or More Lectures of this playlist.
 19. **Disjoint Union Set** : Implemented Disjoint Union set with two approaches
       * Using Array as the store for nodes.	
       * Using LinkedList as the store for nodes.
+20. **Kruskals Minimum Spanning Tree Algorithm** : Implemented Kruskals MST algorithm with the help of DisjointUnionSet. Refer to https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/
 			
 # More Coming Soon
 
