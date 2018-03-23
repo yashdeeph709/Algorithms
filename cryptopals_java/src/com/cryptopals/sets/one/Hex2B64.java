@@ -6,8 +6,12 @@ import java.io.InputStreamReader;
 
 public class Hex2B64{
 	public static void main(String args[]) throws IOException{
-		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		String hexString=br.readLine();
+		System.out.println(getHex2B64("1c0111001f010100061a024b53535009181c"));
+	}
+	public static String base64ToXor(String bas64){
+		
+	}
+	public static String getHex2B64(String hexString){
 		byte[] hextobin={0b0000,0b0001,0b0010,0b0011,0b0100,0b0101,0b0110,0b0111,0b1000,0b1001,0b1010,0b1011,0b1100,0b1101,0b1110,0b1111
 		};
 		char[] base64="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".toCharArray();
@@ -42,7 +46,7 @@ public class Hex2B64{
 		for(int i=0;i<padding;i++){
 			resultFinal+="#";
 		}
-		System.out.println(resultFinal);
+		return resultFinal;
 	}
 	public static int getIndex(char c){
 		if(c=='a'||c=='b'||c=='c'||c=='d'||c=='e'||c=='f'){
