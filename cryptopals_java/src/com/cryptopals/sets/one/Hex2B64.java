@@ -6,10 +6,10 @@ import java.io.InputStreamReader;
 
 public class Hex2B64{
 	public static void main(String args[]) throws IOException{
-		System.out.println(getHex2B64("1c0111001f010100061a024b53535009181c"));
+		System.out.println(getHex2B64("49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d"));
 	}
 	public static String base64ToXor(String bas64){
-		
+		return "";		
 	}
 	public static String getHex2B64(String hexString){
 		byte[] hextobin={0b0000,0b0001,0b0010,0b0011,0b0100,0b0101,0b0110,0b0111,0b1000,0b1001,0b1010,0b1011,0b1100,0b1101,0b1110,0b1111

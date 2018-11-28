@@ -1,0 +1,141 @@
+To describe a permutation of n elements, you see that for the position that the first element ends up at, you have n possibilities, so you can describe this with a number between 0 and n-1. For the position that the next element ends up at, you have n-1 remaining possibilities, so you can describe this with a number between 0 and n-2.
+Et cetera until you have n numbers.
+
+As an example for n = 5, consider the permutation that brings abcde to caebd.
+
+a, the first element, ends up at the second position, so we assign it index 1.
+b ends up at the fourth position, which would be index 3, but it's the third remaining one, so we assign it 2.
+c ends up at the first remaining position, which is always 0.
+d ends up at the last remaining position, which (out of only two remaining positions) is 1.
+e ends up at the only remaining position, indexed at 0.
+So we have the index sequence {1, 2, 0, 1, 0}.
+
+Now you know that for instance in a binary number, 'xyz' means z + 2y + 4x. For a decimal number,
+it's z + 10y + 100x. Each digit is multiplied by some weight, and the results are summed. The obvious pattern in the weight is of course that the weight is w = b^k, with b the base of the number and k the index of the digit. (I will always count digits from the right and starting at index 0 for the rightmost digit. Likewise when I talk about the 'first' digit I mean the rightmost.)
+
+The reason why the weights for digits follow this pattern is that the highest number that can be represented by the digits from 0 to k must be exactly 1 lower than the lowest number that can be represented by only using digit k+1. In binary, 0111 must be one lower than 1000. In decimal, 099999 must be one lower than 100000.
+
+Encoding to variable-base
+The spacing between subsequent numbers being exactly 1 is the important rule. Realising this, we can represent our index sequence by a variable-base number. The base for each digit is the amount of different possibilities for that digit. For decimal each digit has 10 possibilities, for our system the rightmost digit would have 1 possibility and the leftmost will have n possibilities. But since the rightmost digit (the last number in our sequence) is always 0, we leave it out. That means we're left with bases 2 to n. In general, the k'th digit will have base b[k] = k + 2. The highest value allowed for digit k is h[k] = b[k] - 1 = k + 1.
+
+Our rule about the weights w[k] of digits requires that the sum of h[i] * w[i], where i goes from i = 0 to i = k, is equal to 1 * w[k+1]. Stated recurrently, w[k+1] = w[k] + h[k] * w[k] = w[k]*(h[k] + 1). The first weight w[0] should always be 1. Starting from there, we have the following values:
+
+k    h[k] w[k]    
+
+0    1    1  
+1    2    2    
+2    3    6    
+3    4    24   
+...  ...  ...
+n-1  n    n!  
+(The general relation w[k-1] = k! is easily proved by induction.)
+
+The number we get from converting our sequence will then be the sum of s[k] * w[k], with k running from 0 to n-1. Here s[k] is the k'th (rightmost, starting at 0) element of the sequence. As an example, take our {1, 2, 0, 1, 0}, with the rightmost element stripped off as mentioned before: {1, 2, 0, 1}. Our sum is 1 * 1 + 0 * 2 + 2 * 6 + 1 * 24 = 37.
+
+Note that if we take the maximum position for every index, we'd have {4, 3, 2, 1, 0}, and that converts to 119. Since the weights in our number encoding were chosen so that we don't skip any numbers, all numbers 0 to 119 are valid. There are precisely 120 of these, which is n! for n = 5 in our example, precisely the number of different permutations. So you can see our encoded numbers completely specify all possible permutations.
+
+Decoding from variable-base
+Decoding is similar to converting to binary or decimal. The common algorithm is this:
+
+int number = 42;
+int base = 2;
+int[] bits = new int[n];
+
+for (int k = 0; k < bits.Length; k++)
+{
+    bits[k] = number % base;
+    number = number / base;
+}
+For our variable-base number:
+
+int n = 5;
+int number = 37;
+
+int[] sequence = new int[n - 1];
+int base = 2;
+
+for (int k = 0; k < sequence.Length; k++)
+{
+    sequence[k] = number % base;
+    number = number / base;
+
+    base++; // b[k+1] = b[k] + 1
+}
+This correctly decodes our 37 back to {1, 2, 0, 1} (sequence would be {1, 0, 2, 1} in this code example, but whatever ... as long as you index appropriately). We just need to add 0 at the right end (remember the last element always has only one possibility for its new position) to get back our original sequence {1, 2, 0, 1, 0}.
+
+Permuting a list using an index sequence
+You can use the below algorithm to permute a list according to a specific index sequence. It's an O(n²) algorithm, unfortunately.
+
+int n = 5;
+int[] sequence = new int[] { 1, 2, 0, 1, 0 };
+char[] list = new char[] { 'a', 'b', 'c', 'd', 'e' };
+char[] permuted = new char[n];
+bool[] set = new bool[n];
+
+for (int i = 0; i < n; i++)
+{
+    int s = sequence[i];
+    int remainingPosition = 0;
+    int index;
+
+    // Find the s'th position in the permuted list that has not been set yet.
+    for (index = 0; index < n; index++)
+    {
+        if (!set[index])
+        {
+            if (remainingPosition == s)
+                break;
+
+            remainingPosition++;
+        }
+    }
+
+    permuted[index] = list[i];
+    set[index] = true;
+}
+Common representation of permutations
+Normally you would not represent a permutation as unintuitively as we've done, but simply by the absolute position of each element after the permutation is applied. Our example {1, 2, 0, 1, 0} for abcde to caebd is normally represented by {1, 3, 0, 4, 2}. Each index from 0 to 4 (or in general, 0 to n-1) occurs exactly once in this representation.
+
+Applying a permutation in this form is easy:
+
+int[] permutation = new int[] { 1, 3, 0, 4, 2 };
+
+char[] list = new char[] { 'a', 'b', 'c', 'd', 'e' };
+char[] permuted = new char[n];
+
+for (int i = 0; i < n; i++)
+{
+    permuted[permutation[i]] = list[i];
+}
+Inverting it is very similar:
+
+for (int i = 0; i < n; i++)
+{
+    list[i] = permuted[permutation[i]];
+}
+Converting from our representation to the common representation
+Note that if we take our algorithm to permute a list using our index sequence, and apply it to the identity permutation {0, 1, 2, ..., n-1}, we get the inverse permutation, represented in the common form. ({2, 0, 4, 1, 3} in our example).
+
+To get the non-inverted premutation, we apply the permutation algorithm I just showed:
+
+int[] identity = new int[] { 0, 1, 2, 3, 4 };
+int[] inverted = { 2, 0, 4, 1, 3 };
+int[] normal = new int[n];
+
+for (int i = 0; i < n; i++)
+{
+    normal[identity[i]] = list[i];
+}
+Or you can just apply the permutation directly, by using the inverse permutation algorithm:
+
+char[] list = new char[] { 'a', 'b', 'c', 'd', 'e' };
+char[] permuted = new char[n];
+
+int[] inverted = { 2, 0, 4, 1, 3 };
+
+for (int i = 0; i < n; i++)
+{
+    permuted[i] = list[inverted[i]];
+}
+Note that all the algorithms for dealing with permutations in the common form are O(n), while applying a permutation in our form is O(n²). If you need to apply a permutation several times, first convert it to the common representation.
+

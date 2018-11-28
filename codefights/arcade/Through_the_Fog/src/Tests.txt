@@ -1,0 +1,11 @@
+5
+aba,bbb,bab
+false
+ab,bb,aa
+true
+bbb,bbb,bbb
+false
+xyz,abc,def
+false
+vwxyz,wwxyz,voxyz,dwxyz,dwvyz
+true

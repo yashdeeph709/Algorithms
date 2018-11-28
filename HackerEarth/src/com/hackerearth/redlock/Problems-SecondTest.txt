@@ -1,0 +1,29 @@
+Problem 1
+======================================================================
+You are given a matrix A of size  (having N rows and M columns).c
+ is the element of the matrix at  row and  column.
+You have to perform Q queries. In each query, you are given 2 integers L and R, for which you have to count total number of such rows and columns which have their sum in the range L to R (both inclusive).
+
+Input format
+
+The first line of input contains a single integer N denoting the number of rows in matrix A.
+This is followed by another line containing a single integer M denoting the number of columns in matrix A.
+The next N lines describe the matrix A, each containing M space separated integers.
+The next line contains a single integer Q denoting the number of queries.
+Then comes another line containing a single integer S which will always have a value 2.
+The following Q lines describe the queries, each containing 2 space separated integers L and R as described in the problem statement.
+OUTPUT FORMAT
+The output should contain Q space separated integers,  integer of which denotes the answer to the query.
+Problem 2
+======================================================================
+You are given an array a comprising  integers. You have to calculate the magic value of the array . Magic value of an array is equal to the difference between the sum of good integers in an array and the sum of the bad integers in an array.
+
+Good integers are the ones whose indexes are not changed in an array when sorted , rest are bad.
+
+Input format
+First line of input contain a single integer .
+Second line of input contain  space separated integers, elements of array .
+
+Output format
+
+Output a single integer, magic value of array .
